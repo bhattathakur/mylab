@@ -1,0 +1,13 @@
+#data files stored at the location
+/project/rma422_uksr/ge4/data/2020/effcal/02-14
+
+#work with door data
+
+#data log information
+http://130.160.10.13/GeIV/
+user: neutrino
+pass: Xe136.0nbb
+#elog information 19:20 (meeting june 8)
+
+#decay information page
+https://www.nndc.bnl.gov/nudat2/
