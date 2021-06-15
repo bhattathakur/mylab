@@ -1,0 +1,8 @@
+tcsh            //tcsh terminal
+gdfit           //gdprogramme
+1               //Constant efficiency=1 option for peak rates
+file *.chn      //*->Spectrum data filename
+recall naturals //save file with common background peaks
+
+
+

@@ -1,0 +1,2 @@
+Energy(keV)    Intensity(%)       Dose(MeV/Bq-s)
+125.30 2  	   0.00408 % 10 	  5.11E-6 12 
