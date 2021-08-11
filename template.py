@@ -7,7 +7,7 @@ file_name="template.gdf"
 #open the file
 f=open(file_name,'w')
 
-lim=20
+lim=40
 for i in range(lim):
     if i==0:
      print("ero"+"\t\t"+num+"\t"+num)
@@ -18,6 +18,9 @@ for i in range(lim):
 for i in range(lim):
     print("actname"+str(i+1)+"\t"+"activ"+str(i+1)+"\t\t\t"+"0")
     f.write("actname"+str(i+1)+"\t"+"activ"+str(i+1)+"\t\t\t"+"0"+"\n")
+for i in range(lim):
+    print("parent"+str(i+1)+"\t\t"+"0"+"\t"+"0")
+    f.write("parent"+str(i+1)+"\t\t"+"0"+"\t"+"0"+"\n")
 
 for i in range(lim):
     print("activ"+str(i+1)+"\t\t"+4*(num+" "))
