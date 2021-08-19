@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-inputfile="en_eff_error.csv"
+inputfile="ba133en_eff_error.csv"
 header=["energy","efficiency","error"]
 df=pd.read_csv(inputfile,names=header)
 print(df)
@@ -45,8 +45,8 @@ for tick in ax.get_xticklabels():
     tick.set_rotation(45)
 #ax.set_xticklabels(newlabels,rotation=45)
 #plt.rcParams["figure.figsize"]=(10,16)
-plt.title("Ra-226 at door")
-plt.savefig('ra226effvsenergy.pdf')
+plt.title("ba-133 at door")
+plt.savefig('ba133effvsenergy.pdf')
 plt.show()
 
 
