@@ -1,0 +1,1401 @@
+
+Initializing TMinuit
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 activ1       0.00000e+00  1.00000e-01     no limits
+     2 activ2       0.00000e+00  1.00000e-01     no limits
+     3 activ3       0.00000e+00  1.00000e-01     no limits
+     4 activ4       0.00000e+00  1.00000e-01     no limits
+     5 activ5       0.00000e+00  1.00000e-01     no limits
+     6 activ6       0.00000e+00  1.00000e-01     no limits
+     7 activ7       0.00000e+00  1.00000e-01     no limits
+     8 activ8       0.00000e+00  1.00000e-01     no limits
+     9 activ9       0.00000e+00  1.00000e-01     no limits
+    10 activ10      0.00000e+00  1.00000e-01     no limits
+    11 activ11      0.00000e+00  1.00000e-01     no limits
+    12 activ12      0.00000e+00  1.00000e-01     no limits
+    13 activ13      0.00000e+00  1.00000e-01     no limits
+    14 activ14      0.00000e+00  1.00000e-01     no limits
+    15 activ15      0.00000e+00  1.00000e-01     no limits
+    16 activ16      0.00000e+00  1.00000e-01     no limits
+    17 activ17      0.00000e+00  1.00000e-01     no limits
+    18 activ18      0.00000e+00  1.00000e-01     no limits
+    19 activ19      0.00000e+00  1.00000e-01     no limits
+    20 activ20      0.00000e+00  1.00000e-01     no limits
+    21 activ21      0.00000e+00  1.00000e-01     no limits
+    22 activ22      0.00000e+00  1.00000e-01     no limits
+    23 activ23      0.00000e+00  1.00000e-01     no limits
+    24 activ24      0.00000e+00  1.00000e-01     no limits
+    25 activ25      0.00000e+00  1.00000e-01     no limits
+    26 activ26      0.00000e+00  1.00000e-01     no limits
+    27 activ27      0.00000e+00  1.00000e-01     no limits
+    28 activ28      0.00000e+00  1.00000e-01     no limits
+    29 activ29      0.00000e+00  1.00000e-01     no limits
+    30 activ30      0.00000e+00  1.00000e-01     no limits
+    31 activ31      0.00000e+00  1.00000e-01     no limits
+    32 activ32      0.00000e+00  1.00000e-01     no limits
+    33 activ33      0.00000e+00  1.00000e-01     no limits
+    34 activ34      0.00000e+00  1.00000e-01     no limits
+    35 activ35      0.00000e+00  1.00000e-01     no limits
+    36 activ36      0.00000e+00  1.00000e-01     no limits
+    37 activ37      0.00000e+00  1.00000e-01     no limits
+    38 activ38      0.00000e+00  1.00000e-01     no limits
+    39 activ39      0.00000e+00  1.00000e-01     no limits
+    40 activ40      0.00000e+00  1.00000e-01     no limits
+    41 activ41      0.00000e+00  1.00000e-01     no limits
+    42 activ42      0.00000e+00  1.00000e-01     no limits
+    43 activ43      0.00000e+00  1.00000e-01     no limits
+    44 activ44      0.00000e+00  1.00000e-01     no limits
+    45 activ45      0.00000e+00  1.00000e-01     no limits
+    46 activ46      0.00000e+00  1.00000e-01     no limits
+    47 activ47      0.00000e+00  1.00000e-01     no limits
+    48 activ48      0.00000e+00  1.00000e-01     no limits
+    49 activ49      0.00000e+00  1.00000e-01     no limits
+    50 activ50      0.00000e+00  1.00000e-01     no limits
+    51 activ51      0.00000e+00  1.00000e-01     no limits
+    52 activ52      0.00000e+00  1.00000e-01     no limits
+    53 activ53      0.00000e+00  1.00000e-01     no limits
+    54 activ54      0.00000e+00  1.00000e-01     no limits
+    55 activ55      0.00000e+00  1.00000e-01     no limits
+    56 activ56      0.00000e+00  1.00000e-01     no limits
+    57 activ57      0.00000e+00  1.00000e-01     no limits
+    58 activ58      0.00000e+00  1.00000e-01     no limits
+    59 activ59      0.00000e+00  1.00000e-01     no limits
+    60 activ60      0.00000e+00  1.00000e-01     no limits
+    61 activ61      0.00000e+00  1.00000e-01     no limits
+    62 activ62      0.00000e+00  1.00000e-01     no limits
+    63 activ63      0.00000e+00  1.00000e-01     no limits
+    64 activ64      0.00000e+00  1.00000e-01     no limits
+    65 activ65      0.00000e+00  1.00000e-01     no limits
+    66 activ66      0.00000e+00  1.00000e-01     no limits
+    67 activ67      0.00000e+00  1.00000e-01     no limits
+    68 activ68      0.00000e+00  1.00000e-01     no limits
+    69 activ69      0.00000e+00  1.00000e-01     no limits
+    70 activ70      0.00000e+00  1.00000e-01     no limits
+    71 activ71      0.00000e+00  1.00000e-01     no limits
+    72 activ72      0.00000e+00  1.00000e-01     no limits
+    73 activ73      0.00000e+00  1.00000e-01     no limits
+    74 activ74      0.00000e+00  1.00000e-01     no limits
+    75 activ75      0.00000e+00  1.00000e-01     no limits
+    76 activ76      0.00000e+00  1.00000e-01     no limits
+    77 activ77      0.00000e+00  1.00000e-01     no limits
+    78 activ78      0.00000e+00  1.00000e-01     no limits
+    79 activ79      0.00000e+00  1.00000e-01     no limits
+    80 activ80      0.00000e+00  1.00000e-01     no limits
+    81 activ81      0.00000e+00  1.00000e-01     no limits
+    82 activ82      0.00000e+00  1.00000e-01     no limits
+    83 activ83      0.00000e+00  1.00000e-01     no limits
+    84 activ84      0.00000e+00  1.00000e-01     no limits
+    85 activ85      0.00000e+00  1.00000e-01     no limits
+    86 activ86      0.00000e+00  1.00000e-01     no limits
+    87 activ87      0.00000e+00  1.00000e-01     no limits
+    88 activ88      0.00000e+00  1.00000e-01     no limits
+    89 activ89      0.00000e+00  1.00000e-01     no limits
+    90 activ90      0.00000e+00  1.00000e-01     no limits
+    91 activ91      0.00000e+00  1.00000e-01     no limits
+    92 activ92      0.00000e+00  1.00000e-01     no limits
+    93 activ93      0.00000e+00  1.00000e-01     no limits
+    94 activ94      0.00000e+00  1.00000e-01     no limits
+    95 activ95      0.00000e+00  1.00000e-01     no limits
+    96 activ96      0.00000e+00  1.00000e-01     no limits
+    97 activ97      0.00000e+00  1.00000e-01     no limits
+    98 activ98      0.00000e+00  1.00000e-01     no limits
+    99 activ99      0.00000e+00  1.00000e-01     no limits
+   100 activ100     0.00000e+00  1.00000e-01     no limits
+   101 activ101     0.00000e+00  1.00000e-01     no limits
+   102 activ102     0.00000e+00  1.00000e-01     no limits
+   103 activ103     0.00000e+00  1.00000e-01     no limits
+   104 activ104     0.00000e+00  1.00000e-01     no limits
+   105 activ105     0.00000e+00  1.00000e-01     no limits
+   106 activ106     0.00000e+00  1.00000e-01     no limits
+   107 activ107     0.00000e+00  1.00000e-01     no limits
+   108 activ108     0.00000e+00  1.00000e-01     no limits
+   109 activ109     0.00000e+00  1.00000e-01     no limits
+   110 activ110     0.00000e+00  1.00000e-01     no limits
+   111 activ111     0.00000e+00  1.00000e-01     no limits
+   112 activ112     0.00000e+00  1.00000e-01     no limits
+   113 activ113     0.00000e+00  1.00000e-01     no limits
+   114 activ114     0.00000e+00  1.00000e-01     no limits
+   115 activ115     0.00000e+00  1.00000e-01     no limits
+   116 activ116     0.00000e+00  1.00000e-01     no limits
+   117 activ117     0.00000e+00  1.00000e-01     no limits
+   118 activ118     0.00000e+00  1.00000e-01     no limits
+   119 activ119     0.00000e+00  1.00000e-01     no limits
+   120 activ120     0.00000e+00  1.00000e-01     no limits
+   121 activ121     0.00000e+00  1.00000e-01     no limits
+   122 activ122     0.00000e+00  1.00000e-01     no limits
+   123 activ123     0.00000e+00  1.00000e-01     no limits
+   124 activ124     0.00000e+00  1.00000e-01     no limits
+   125 activ125     0.00000e+00  1.00000e-01     no limits
+   126 activ126     0.00000e+00  1.00000e-01     no limits
+   127 activ127     0.00000e+00  1.00000e-01     no limits
+   128 activ128     0.00000e+00  1.00000e-01     no limits
+   129 activ129     0.00000e+00  1.00000e-01     no limits
+   130 activ130     0.00000e+00  1.00000e-01     no limits
+   131 activ131     0.00000e+00  1.00000e-01     no limits
+   132 activ132     0.00000e+00  1.00000e-01     no limits
+   133 activ133     0.00000e+00  1.00000e-01     no limits
+   134 activ134     0.00000e+00  1.00000e-01     no limits
+   135 activ135     0.00000e+00  1.00000e-01     no limits
+   136 activ136     0.00000e+00  1.00000e-01     no limits
+   137 activ137     0.00000e+00  1.00000e-01     no limits
+   138 activ138     0.00000e+00  1.00000e-01     no limits
+   139 activ139     0.00000e+00  1.00000e-01     no limits
+   140 activ140     0.00000e+00  1.00000e-01     no limits
+   141 activ141     0.00000e+00  1.00000e-01     no limits
+   142 activ142     0.00000e+00  1.00000e-01     no limits
+   143 activ143     0.00000e+00  1.00000e-01     no limits
+   144 activ144     0.00000e+00  1.00000e-01     no limits
+   145 activ145     0.00000e+00  1.00000e-01     no limits
+   146 activ146     0.00000e+00  1.00000e-01     no limits
+   147 activ147     0.00000e+00  1.00000e-01     no limits
+   148 activ148     0.00000e+00  1.00000e-01     no limits
+   149 activ149     0.00000e+00  1.00000e-01     no limits
+   150 activ150     0.00000e+00  1.00000e-01     no limits
+   151 activ151     0.00000e+00  1.00000e-01     no limits
+   152 activ152     0.00000e+00  1.00000e-01     no limits
+   153 activ153     0.00000e+00  1.00000e-01     no limits
+   154 activ154     0.00000e+00  1.00000e-01     no limits
+   155 activ155     0.00000e+00  1.00000e-01     no limits
+   156 activ156     0.00000e+00  1.00000e-01     no limits
+   157 activ157     0.00000e+00  1.00000e-01     no limits
+   158 activ158     0.00000e+00  1.00000e-01     no limits
+   159 activ159     0.00000e+00  1.00000e-01     no limits
+   160 activ160     0.00000e+00  1.00000e-01     no limits
+   161 activ161     0.00000e+00  1.00000e-01     no limits
+   162 activ162     0.00000e+00  1.00000e-01     no limits
+   163 activ163     0.00000e+00  1.00000e-01     no limits
+   164 activ164     0.00000e+00  1.00000e-01     no limits
+   165 activ165     0.00000e+00  1.00000e-01     no limits
+   166 activ166     0.00000e+00  1.00000e-01     no limits
+   167 activ167     0.00000e+00  1.00000e-01     no limits
+   168 activ168     0.00000e+00  1.00000e-01     no limits
+   169 activ169     0.00000e+00  1.00000e-01     no limits
+   170 activ170     0.00000e+00  1.00000e-01     no limits
+   171 activ171     0.00000e+00  1.00000e-01     no limits
+   172 activ172     0.00000e+00  1.00000e-01     no limits
+   173 activ173     0.00000e+00  1.00000e-01     no limits
+   174 activ174     0.00000e+00  1.00000e-01     no limits
+   175 activ175     0.00000e+00  1.00000e-01     no limits
+   176 activ176     0.00000e+00  1.00000e-01     no limits
+   177 activ177     0.00000e+00  1.00000e-01     no limits
+   178 activ178     0.00000e+00  1.00000e-01     no limits
+   179 activ179     0.00000e+00  1.00000e-01     no limits
+   180 activ180     0.00000e+00  1.00000e-01     no limits
+   181 activ181     0.00000e+00  1.00000e-01     no limits
+   182 activ182     0.00000e+00  1.00000e-01     no limits
+   183 activ183     0.00000e+00  1.00000e-01     no limits
+   184 activ184     0.00000e+00  1.00000e-01     no limits
+   185 activ185     0.00000e+00  1.00000e-01     no limits
+   186 activ186     0.00000e+00  1.00000e-01     no limits
+   187 activ187     0.00000e+00  1.00000e-01     no limits
+   188 activ188     0.00000e+00  1.00000e-01     no limits
+   189 activ189     0.00000e+00  1.00000e-01     no limits
+   190 activ190     0.00000e+00  1.00000e-01     no limits
+   191 activ191     0.00000e+00  1.00000e-01     no limits
+   192 activ192     0.00000e+00  1.00000e-01     no limits
+   193 activ193     0.00000e+00  1.00000e-01     no limits
+   194 activ194     0.00000e+00  1.00000e-01     no limits
+   195 activ195     0.00000e+00  1.00000e-01     no limits
+   196 activ196     0.00000e+00  1.00000e-01     no limits
+   197 activ197     0.00000e+00  1.00000e-01     no limits
+   198 activ198     0.00000e+00  1.00000e-01     no limits
+   199 activ199     0.00000e+00  1.00000e-01     no limits
+   200 activ200     0.00000e+00  1.00000e-01     no limits
+   201 bgrate1      0.00000e+00  1.00000e-01     no limits
+   202 bgrate2      0.00000e+00  1.00000e-01     no limits
+   203 bgrate3      0.00000e+00  1.00000e-01     no limits
+   204 bgrate4      0.00000e+00  1.00000e-01     no limits
+   205 bgrate5      0.00000e+00  1.00000e-01     no limits
+   206 bgrate6      0.00000e+00  1.00000e-01     no limits
+   207 bgrate7      0.00000e+00  1.00000e-01     no limits
+   208 bgrate8      0.00000e+00  1.00000e-01     no limits
+   209 bgrate9      0.00000e+00  1.00000e-01     no limits
+   210 bgrate10     0.00000e+00  1.00000e-01     no limits
+   211 bgrate11     0.00000e+00  1.00000e-01     no limits
+   212 bgrate12     0.00000e+00  1.00000e-01     no limits
+   213 bgrate13     0.00000e+00  1.00000e-01     no limits
+   214 bgrate14     0.00000e+00  1.00000e-01     no limits
+   215 bgrate15     0.00000e+00  1.00000e-01     no limits
+   216 bgrate16     0.00000e+00  1.00000e-01     no limits
+   217 bgrate17     0.00000e+00  1.00000e-01     no limits
+   218 bgrate18     0.00000e+00  1.00000e-01     no limits
+   219 bgrate19     0.00000e+00  1.00000e-01     no limits
+   220 bgrate20     0.00000e+00  1.00000e-01     no limits
+   221 bgrate21     0.00000e+00  1.00000e-01     no limits
+   222 bgrate22     0.00000e+00  1.00000e-01     no limits
+   223 bgrate23     0.00000e+00  1.00000e-01     no limits
+   224 bgrate24     0.00000e+00  1.00000e-01     no limits
+   225 bgrate25     0.00000e+00  1.00000e-01     no limits
+   226 bgrate26     0.00000e+00  1.00000e-01     no limits
+   227 bgrate27     0.00000e+00  1.00000e-01     no limits
+   228 bgrate28     0.00000e+00  1.00000e-01     no limits
+   229 bgrate29     0.00000e+00  1.00000e-01     no limits
+   230 bgrate30     0.00000e+00  1.00000e-01     no limits
+   231 bgrate31     0.00000e+00  1.00000e-01     no limits
+   232 bgrate32     0.00000e+00  1.00000e-01     no limits
+   233 bgrate33     0.00000e+00  1.00000e-01     no limits
+   234 bgrate34     0.00000e+00  1.00000e-01     no limits
+   235 bgrate35     0.00000e+00  1.00000e-01     no limits
+   236 bgrate36     0.00000e+00  1.00000e-01     no limits
+   237 bgrate37     0.00000e+00  1.00000e-01     no limits
+   238 bgrate38     0.00000e+00  1.00000e-01     no limits
+   239 bgrate39     0.00000e+00  1.00000e-01     no limits
+   240 bgrate40     0.00000e+00  1.00000e-01     no limits
+   241 bgrate41     0.00000e+00  1.00000e-01     no limits
+   242 bgrate42     0.00000e+00  1.00000e-01     no limits
+   243 bgrate43     0.00000e+00  1.00000e-01     no limits
+   244 bgrate44     0.00000e+00  1.00000e-01     no limits
+   245 bgrate45     0.00000e+00  1.00000e-01     no limits
+   246 bgrate46     0.00000e+00  1.00000e-01     no limits
+   247 bgrate47     0.00000e+00  1.00000e-01     no limits
+   248 bgrate48     0.00000e+00  1.00000e-01     no limits
+   249 bgrate49     0.00000e+00  1.00000e-01     no limits
+   250 bgrate50     0.00000e+00  1.00000e-01     no limits
+   251 bgrate51     0.00000e+00  1.00000e-01     no limits
+   252 bgrate52     0.00000e+00  1.00000e-01     no limits
+   253 bgrate53     0.00000e+00  1.00000e-01     no limits
+   254 bgrate54     0.00000e+00  1.00000e-01     no limits
+   255 bgrate55     0.00000e+00  1.00000e-01     no limits
+   256 bgrate56     0.00000e+00  1.00000e-01     no limits
+   257 bgrate57     0.00000e+00  1.00000e-01     no limits
+   258 bgrate58     0.00000e+00  1.00000e-01     no limits
+   259 bgrate59     0.00000e+00  1.00000e-01     no limits
+   260 bgrate60     0.00000e+00  1.00000e-01     no limits
+   261 bgrate61     0.00000e+00  1.00000e-01     no limits
+   262 bgrate62     0.00000e+00  1.00000e-01     no limits
+   263 bgrate63     0.00000e+00  1.00000e-01     no limits
+   264 bgrate64     0.00000e+00  1.00000e-01     no limits
+   265 bgrate65     0.00000e+00  1.00000e-01     no limits
+   266 bgrate66     0.00000e+00  1.00000e-01     no limits
+   267 bgrate67     0.00000e+00  1.00000e-01     no limits
+   268 bgrate68     0.00000e+00  1.00000e-01     no limits
+   269 bgrate69     0.00000e+00  1.00000e-01     no limits
+   270 bgrate70     0.00000e+00  1.00000e-01     no limits
+   271 bgrate71     0.00000e+00  1.00000e-01     no limits
+   272 bgrate72     0.00000e+00  1.00000e-01     no limits
+   273 bgrate73     0.00000e+00  1.00000e-01     no limits
+   274 bgrate74     0.00000e+00  1.00000e-01     no limits
+   275 bgrate75     0.00000e+00  1.00000e-01     no limits
+   276 bgrate76     0.00000e+00  1.00000e-01     no limits
+   277 bgrate77     0.00000e+00  1.00000e-01     no limits
+   278 bgrate78     0.00000e+00  1.00000e-01     no limits
+   279 bgrate79     0.00000e+00  1.00000e-01     no limits
+   280 bgrate80     0.00000e+00  1.00000e-01     no limits
+   281 bgrate81     0.00000e+00  1.00000e-01     no limits
+   282 bgrate82     0.00000e+00  1.00000e-01     no limits
+   283 bgrate83     0.00000e+00  1.00000e-01     no limits
+   284 bgrate84     0.00000e+00  1.00000e-01     no limits
+   285 bgrate85     0.00000e+00  1.00000e-01     no limits
+   286 bgrate86     0.00000e+00  1.00000e-01     no limits
+   287 bgrate87     0.00000e+00  1.00000e-01     no limits
+   288 bgrate88     0.00000e+00  1.00000e-01     no limits
+   289 bgrate89     0.00000e+00  1.00000e-01     no limits
+   290 bgrate90     0.00000e+00  1.00000e-01     no limits
+   291 bgrate91     0.00000e+00  1.00000e-01     no limits
+   292 bgrate92     0.00000e+00  1.00000e-01     no limits
+   293 bgrate93     0.00000e+00  1.00000e-01     no limits
+   294 bgrate94     0.00000e+00  1.00000e-01     no limits
+   295 bgrate95     0.00000e+00  1.00000e-01     no limits
+   296 bgrate96     0.00000e+00  1.00000e-01     no limits
+   297 bgrate97     0.00000e+00  1.00000e-01     no limits
+   298 bgrate98     0.00000e+00  1.00000e-01     no limits
+   299 bgrate99     0.00000e+00  1.00000e-01     no limits
+   300 bgrate100    0.00000e+00  1.00000e-01     no limits
+   301 bgrate101    0.00000e+00  1.00000e-01     no limits
+   302 bgrate102    0.00000e+00  1.00000e-01     no limits
+   303 bgrate103    0.00000e+00  1.00000e-01     no limits
+   304 bgrate104    0.00000e+00  1.00000e-01     no limits
+   305 bgrate105    0.00000e+00  1.00000e-01     no limits
+   306 bgrate106    0.00000e+00  1.00000e-01     no limits
+   307 bgrate107    0.00000e+00  1.00000e-01     no limits
+   308 bgrate108    0.00000e+00  1.00000e-01     no limits
+   309 bgrate109    0.00000e+00  1.00000e-01     no limits
+   310 bgrate110    0.00000e+00  1.00000e-01     no limits
+   311 bgrate111    0.00000e+00  1.00000e-01     no limits
+   312 bgrate112    0.00000e+00  1.00000e-01     no limits
+   313 bgrate113    0.00000e+00  1.00000e-01     no limits
+   314 bgrate114    0.00000e+00  1.00000e-01     no limits
+   315 bgrate115    0.00000e+00  1.00000e-01     no limits
+   316 bgrate116    0.00000e+00  1.00000e-01     no limits
+   317 bgrate117    0.00000e+00  1.00000e-01     no limits
+   318 bgrate118    0.00000e+00  1.00000e-01     no limits
+   319 bgrate119    0.00000e+00  1.00000e-01     no limits
+   320 bgrate120    0.00000e+00  1.00000e-01     no limits
+   321 bgrate121    0.00000e+00  1.00000e-01     no limits
+   322 bgrate122    0.00000e+00  1.00000e-01     no limits
+   323 bgrate123    0.00000e+00  1.00000e-01     no limits
+   324 bgrate124    0.00000e+00  1.00000e-01     no limits
+   325 bgrate125    0.00000e+00  1.00000e-01     no limits
+   326 bgrate126    0.00000e+00  1.00000e-01     no limits
+   327 bgrate127    0.00000e+00  1.00000e-01     no limits
+   328 bgrate128    0.00000e+00  1.00000e-01     no limits
+   329 bgrate129    0.00000e+00  1.00000e-01     no limits
+   330 bgrate130    0.00000e+00  1.00000e-01     no limits
+   331 bgrate131    0.00000e+00  1.00000e-01     no limits
+   332 bgrate132    0.00000e+00  1.00000e-01     no limits
+   333 bgrate133    0.00000e+00  1.00000e-01     no limits
+   334 bgrate134    0.00000e+00  1.00000e-01     no limits
+   335 bgrate135    0.00000e+00  1.00000e-01     no limits
+   336 bgrate136    0.00000e+00  1.00000e-01     no limits
+   337 bgrate137    0.00000e+00  1.00000e-01     no limits
+   338 bgrate138    0.00000e+00  1.00000e-01     no limits
+   339 bgrate139    0.00000e+00  1.00000e-01     no limits
+   340 bgrate140    0.00000e+00  1.00000e-01     no limits
+   341 bgrate141    0.00000e+00  1.00000e-01     no limits
+   342 bgrate142    0.00000e+00  1.00000e-01     no limits
+   343 bgrate143    0.00000e+00  1.00000e-01     no limits
+   344 bgrate144    0.00000e+00  1.00000e-01     no limits
+   345 bgrate145    0.00000e+00  1.00000e-01     no limits
+   346 bgrate146    0.00000e+00  1.00000e-01     no limits
+   347 bgrate147    0.00000e+00  1.00000e-01     no limits
+   348 bgrate148    0.00000e+00  1.00000e-01     no limits
+   349 bgrate149    0.00000e+00  1.00000e-01     no limits
+   350 bgrate150    0.00000e+00  1.00000e-01     no limits
+   351 bgrate151    0.00000e+00  1.00000e-01     no limits
+   352 bgrate152    0.00000e+00  1.00000e-01     no limits
+   353 bgrate153    0.00000e+00  1.00000e-01     no limits
+   354 bgrate154    0.00000e+00  1.00000e-01     no limits
+   355 bgrate155    0.00000e+00  1.00000e-01     no limits
+   356 bgrate156    0.00000e+00  1.00000e-01     no limits
+   357 bgrate157    0.00000e+00  1.00000e-01     no limits
+   358 bgrate158    0.00000e+00  1.00000e-01     no limits
+   359 bgrate159    0.00000e+00  1.00000e-01     no limits
+   360 bgrate160    0.00000e+00  1.00000e-01     no limits
+   361 bgrate161    0.00000e+00  1.00000e-01     no limits
+   362 bgrate162    0.00000e+00  1.00000e-01     no limits
+   363 bgrate163    0.00000e+00  1.00000e-01     no limits
+   364 bgrate164    0.00000e+00  1.00000e-01     no limits
+   365 bgrate165    0.00000e+00  1.00000e-01     no limits
+   366 bgrate166    0.00000e+00  1.00000e-01     no limits
+   367 bgrate167    0.00000e+00  1.00000e-01     no limits
+   368 bgrate168    0.00000e+00  1.00000e-01     no limits
+   369 bgrate169    0.00000e+00  1.00000e-01     no limits
+   370 bgrate170    0.00000e+00  1.00000e-01     no limits
+   371 bgrate171    0.00000e+00  1.00000e-01     no limits
+   372 bgrate172    0.00000e+00  1.00000e-01     no limits
+   373 bgrate173    0.00000e+00  1.00000e-01     no limits
+   374 bgrate174    0.00000e+00  1.00000e-01     no limits
+   375 bgrate175    0.00000e+00  1.00000e-01     no limits
+   376 bgrate176    0.00000e+00  1.00000e-01     no limits
+   377 bgrate177    0.00000e+00  1.00000e-01     no limits
+   378 bgrate178    0.00000e+00  1.00000e-01     no limits
+   379 bgrate179    0.00000e+00  1.00000e-01     no limits
+   380 bgrate180    0.00000e+00  1.00000e-01     no limits
+   381 bgrate181    0.00000e+00  1.00000e-01     no limits
+   382 bgrate182    0.00000e+00  1.00000e-01     no limits
+   383 bgrate183    0.00000e+00  1.00000e-01     no limits
+   384 bgrate184    0.00000e+00  1.00000e-01     no limits
+   385 bgrate185    0.00000e+00  1.00000e-01     no limits
+   386 bgrate186    0.00000e+00  1.00000e-01     no limits
+   387 bgrate187    0.00000e+00  1.00000e-01     no limits
+   388 bgrate188    0.00000e+00  1.00000e-01     no limits
+   389 bgrate189    0.00000e+00  1.00000e-01     no limits
+   390 bgrate190    0.00000e+00  1.00000e-01     no limits
+   391 bgrate191    0.00000e+00  1.00000e-01     no limits
+   392 bgrate192    0.00000e+00  1.00000e-01     no limits
+   393 bgrate193    0.00000e+00  1.00000e-01     no limits
+   394 bgrate194    0.00000e+00  1.00000e-01     no limits
+   395 bgrate195    0.00000e+00  1.00000e-01     no limits
+   396 bgrate196    0.00000e+00  1.00000e-01     no limits
+   397 bgrate197    0.00000e+00  1.00000e-01     no limits
+   398 bgrate198    0.00000e+00  1.00000e-01     no limits
+   399 bgrate199    0.00000e+00  1.00000e-01     no limits
+   400 bgrate200    0.00000e+00  1.00000e-01     no limits
+   401 cnst:1       1.00000e-02  1.00000e-01     no limits
+   402 lin:1        0.00000e+00  1.00000e-01     no limits
+   403 x^2:1        0.00000e+00  1.00000e-01     no limits
+   404 cnst:2       1.00000e-02  1.00000e-01     no limits
+   405 lin:2        0.00000e+00  1.00000e-01     no limits
+   406 x^2:2        0.00000e+00  1.00000e-01     no limits
+   407 cnst:3       1.00000e-02  1.00000e-01     no limits
+   408 lin:3        0.00000e+00  1.00000e-01     no limits
+   409 x^2:3        0.00000e+00  1.00000e-01     no limits
+   410 cnst:4       1.00000e-02  1.00000e-01     no limits
+   411 lin:4        0.00000e+00  1.00000e-01     no limits
+   412 x^2:4        0.00000e+00  1.00000e-01     no limits
+   413 cnst:5       1.00000e-02  1.00000e-01     no limits
+   414 lin:5        0.00000e+00  1.00000e-01     no limits
+   415 x^2:5        0.00000e+00  1.00000e-01     no limits
+   416 cnst:6       1.00000e-02  1.00000e-01     no limits
+   417 lin:6        0.00000e+00  1.00000e-01     no limits
+   418 x^2:6        0.00000e+00  1.00000e-01     no limits
+   419 cnst:7       1.00000e-02  1.00000e-01     no limits
+   420 lin:7        0.00000e+00  1.00000e-01     no limits
+   421 x^2:7        0.00000e+00  1.00000e-01     no limits
+   422 cnst:8       1.00000e-02  1.00000e-01     no limits
+   423 lin:8        0.00000e+00  1.00000e-01     no limits
+   424 x^2:8        0.00000e+00  1.00000e-01     no limits
+   425 cnst:9       1.00000e-02  1.00000e-01     no limits
+   426 lin:9        0.00000e+00  1.00000e-01     no limits
+   427 x^2:9        0.00000e+00  1.00000e-01     no limits
+   428 cnst:10      1.00000e-02  1.00000e-01     no limits
+   429 lin:10       0.00000e+00  1.00000e-01     no limits
+   430 x^2:10       0.00000e+00  1.00000e-01     no limits
+   431 cnst:11      1.00000e-02  1.00000e-01     no limits
+   432 lin:11       0.00000e+00  1.00000e-01     no limits
+   433 x^2:11       0.00000e+00  1.00000e-01     no limits
+   434 cnst:12      1.00000e-02  1.00000e-01     no limits
+   435 lin:12       0.00000e+00  1.00000e-01     no limits
+   436 x^2:12       0.00000e+00  1.00000e-01     no limits
+   437 cnst:13      1.00000e-02  1.00000e-01     no limits
+   438 lin:13       0.00000e+00  1.00000e-01     no limits
+   439 x^2:13       0.00000e+00  1.00000e-01     no limits
+   440 cnst:14      1.00000e-02  1.00000e-01     no limits
+   441 lin:14       0.00000e+00  1.00000e-01     no limits
+   442 x^2:14       0.00000e+00  1.00000e-01     no limits
+   443 cnst:15      1.00000e-02  1.00000e-01     no limits
+   444 lin:15       0.00000e+00  1.00000e-01     no limits
+   445 x^2:15       0.00000e+00  1.00000e-01     no limits
+   446 cnst:16      1.00000e-02  1.00000e-01     no limits
+   447 lin:16       0.00000e+00  1.00000e-01     no limits
+   448 x^2:16       0.00000e+00  1.00000e-01     no limits
+   449 cnst:17      1.00000e-02  1.00000e-01     no limits
+   450 lin:17       0.00000e+00  1.00000e-01     no limits
+   451 x^2:17       0.00000e+00  1.00000e-01     no limits
+   452 cnst:18      1.00000e-02  1.00000e-01     no limits
+   453 lin:18       0.00000e+00  1.00000e-01     no limits
+   454 x^2:18       0.00000e+00  1.00000e-01     no limits
+   455 cnst:19      1.00000e-02  1.00000e-01     no limits
+   456 lin:19       0.00000e+00  1.00000e-01     no limits
+   457 x^2:19       0.00000e+00  1.00000e-01     no limits
+   458 cnst:20      1.00000e-02  1.00000e-01     no limits
+   459 lin:20       0.00000e+00  1.00000e-01     no limits
+   460 x^2:20       0.00000e+00  1.00000e-01     no limits
+   461 cnst:21      1.00000e-02  1.00000e-01     no limits
+   462 lin:21       0.00000e+00  1.00000e-01     no limits
+   463 x^2:21       0.00000e+00  1.00000e-01     no limits
+   464 cnst:22      1.00000e-02  1.00000e-01     no limits
+   465 lin:22       0.00000e+00  1.00000e-01     no limits
+   466 x^2:22       0.00000e+00  1.00000e-01     no limits
+   467 cnst:23      1.00000e-02  1.00000e-01     no limits
+   468 lin:23       0.00000e+00  1.00000e-01     no limits
+   469 x^2:23       0.00000e+00  1.00000e-01     no limits
+   470 cnst:24      1.00000e-02  1.00000e-01     no limits
+   471 lin:24       0.00000e+00  1.00000e-01     no limits
+   472 x^2:24       0.00000e+00  1.00000e-01     no limits
+   473 cnst:25      1.00000e-02  1.00000e-01     no limits
+   474 lin:25       0.00000e+00  1.00000e-01     no limits
+   475 x^2:25       0.00000e+00  1.00000e-01     no limits
+   476 cnst:26      1.00000e-02  1.00000e-01     no limits
+   477 lin:26       0.00000e+00  1.00000e-01     no limits
+   478 x^2:26       0.00000e+00  1.00000e-01     no limits
+   479 cnst:27      1.00000e-02  1.00000e-01     no limits
+   480 lin:27       0.00000e+00  1.00000e-01     no limits
+   481 x^2:27       0.00000e+00  1.00000e-01     no limits
+   482 cnst:28      1.00000e-02  1.00000e-01     no limits
+   483 lin:28       0.00000e+00  1.00000e-01     no limits
+   484 x^2:28       0.00000e+00  1.00000e-01     no limits
+   485 cnst:29      1.00000e-02  1.00000e-01     no limits
+   486 lin:29       0.00000e+00  1.00000e-01     no limits
+   487 x^2:29       0.00000e+00  1.00000e-01     no limits
+   488 cnst:30      1.00000e-02  1.00000e-01     no limits
+   489 lin:30       0.00000e+00  1.00000e-01     no limits
+   490 x^2:30       0.00000e+00  1.00000e-01     no limits
+   491 cnst:31      1.00000e-02  1.00000e-01     no limits
+   492 lin:31       0.00000e+00  1.00000e-01     no limits
+   493 x^2:31       0.00000e+00  1.00000e-01     no limits
+   494 cnst:32      1.00000e-02  1.00000e-01     no limits
+   495 lin:32       0.00000e+00  1.00000e-01     no limits
+   496 x^2:32       0.00000e+00  1.00000e-01     no limits
+   497 cnst:33      1.00000e-02  1.00000e-01     no limits
+   498 lin:33       0.00000e+00  1.00000e-01     no limits
+   499 x^2:33       0.00000e+00  1.00000e-01     no limits
+   500 cnst:34      1.00000e-02  1.00000e-01     no limits
+   501 lin:34       0.00000e+00  1.00000e-01     no limits
+   502 x^2:34       0.00000e+00  1.00000e-01     no limits
+   503 cnst:35      1.00000e-02  1.00000e-01     no limits
+   504 lin:35       0.00000e+00  1.00000e-01     no limits
+   505 x^2:35       0.00000e+00  1.00000e-01     no limits
+   506 cnst:36      1.00000e-02  1.00000e-01     no limits
+   507 lin:36       0.00000e+00  1.00000e-01     no limits
+   508 x^2:36       0.00000e+00  1.00000e-01     no limits
+   509 cnst:37      1.00000e-02  1.00000e-01     no limits
+   510 lin:37       0.00000e+00  1.00000e-01     no limits
+   511 x^2:37       0.00000e+00  1.00000e-01     no limits
+   512 cnst:38      1.00000e-02  1.00000e-01     no limits
+   513 lin:38       0.00000e+00  1.00000e-01     no limits
+   514 x^2:38       0.00000e+00  1.00000e-01     no limits
+   515 cnst:39      1.00000e-02  1.00000e-01     no limits
+   516 lin:39       0.00000e+00  1.00000e-01     no limits
+   517 x^2:39       0.00000e+00  1.00000e-01     no limits
+   518 cnst:40      1.00000e-02  1.00000e-01     no limits
+   519 lin:40       0.00000e+00  1.00000e-01     no limits
+   520 x^2:40       0.00000e+00  1.00000e-01     no limits
+   521 cnst:41      1.00000e-02  1.00000e-01     no limits
+   522 lin:41       0.00000e+00  1.00000e-01     no limits
+   523 x^2:41       0.00000e+00  1.00000e-01     no limits
+   524 cnst:42      1.00000e-02  1.00000e-01     no limits
+   525 lin:42       0.00000e+00  1.00000e-01     no limits
+   526 x^2:42       0.00000e+00  1.00000e-01     no limits
+   527 cnst:43      1.00000e-02  1.00000e-01     no limits
+   528 lin:43       0.00000e+00  1.00000e-01     no limits
+   529 x^2:43       0.00000e+00  1.00000e-01     no limits
+   530 cnst:44      1.00000e-02  1.00000e-01     no limits
+   531 lin:44       0.00000e+00  1.00000e-01     no limits
+   532 x^2:44       0.00000e+00  1.00000e-01     no limits
+   533 cnst:45      1.00000e-02  1.00000e-01     no limits
+   534 lin:45       0.00000e+00  1.00000e-01     no limits
+   535 x^2:45       0.00000e+00  1.00000e-01     no limits
+   536 cnst:46      1.00000e-02  1.00000e-01     no limits
+   537 lin:46       0.00000e+00  1.00000e-01     no limits
+   538 x^2:46       0.00000e+00  1.00000e-01     no limits
+   539 cnst:47      1.00000e-02  1.00000e-01     no limits
+   540 lin:47       0.00000e+00  1.00000e-01     no limits
+   541 x^2:47       0.00000e+00  1.00000e-01     no limits
+   542 cnst:48      1.00000e-02  1.00000e-01     no limits
+   543 lin:48       0.00000e+00  1.00000e-01     no limits
+   544 x^2:48       0.00000e+00  1.00000e-01     no limits
+   545 cnst:49      1.00000e-02  1.00000e-01     no limits
+   546 lin:49       0.00000e+00  1.00000e-01     no limits
+   547 x^2:49       0.00000e+00  1.00000e-01     no limits
+   548 cnst:50      1.00000e-02  1.00000e-01     no limits
+   549 lin:50       0.00000e+00  1.00000e-01     no limits
+   550 x^2:50       0.00000e+00  1.00000e-01     no limits
+   551 cnst:51      1.00000e-02  1.00000e-01     no limits
+   552 lin:51       0.00000e+00  1.00000e-01     no limits
+   553 x^2:51       0.00000e+00  1.00000e-01     no limits
+   554 cnst:52      1.00000e-02  1.00000e-01     no limits
+   555 lin:52       0.00000e+00  1.00000e-01     no limits
+   556 x^2:52       0.00000e+00  1.00000e-01     no limits
+   557 cnst:53      1.00000e-02  1.00000e-01     no limits
+   558 lin:53       0.00000e+00  1.00000e-01     no limits
+   559 x^2:53       0.00000e+00  1.00000e-01     no limits
+   560 cnst:54      1.00000e-02  1.00000e-01     no limits
+   561 lin:54       0.00000e+00  1.00000e-01     no limits
+   562 x^2:54       0.00000e+00  1.00000e-01     no limits
+   563 cnst:55      1.00000e-02  1.00000e-01     no limits
+   564 lin:55       0.00000e+00  1.00000e-01     no limits
+   565 x^2:55       0.00000e+00  1.00000e-01     no limits
+   566 cnst:56      1.00000e-02  1.00000e-01     no limits
+   567 lin:56       0.00000e+00  1.00000e-01     no limits
+   568 x^2:56       0.00000e+00  1.00000e-01     no limits
+   569 cnst:57      1.00000e-02  1.00000e-01     no limits
+   570 lin:57       0.00000e+00  1.00000e-01     no limits
+   571 x^2:57       0.00000e+00  1.00000e-01     no limits
+   572 cnst:58      1.00000e-02  1.00000e-01     no limits
+   573 lin:58       0.00000e+00  1.00000e-01     no limits
+   574 x^2:58       0.00000e+00  1.00000e-01     no limits
+   575 cnst:59      1.00000e-02  1.00000e-01     no limits
+   576 lin:59       0.00000e+00  1.00000e-01     no limits
+   577 x^2:59       0.00000e+00  1.00000e-01     no limits
+   578 cnst:60      1.00000e-02  1.00000e-01     no limits
+   579 lin:60       0.00000e+00  1.00000e-01     no limits
+   580 x^2:60       0.00000e+00  1.00000e-01     no limits
+   581 c1           0.00000e+00  1.00000e+00     no limits
+   582 sigma1      -1.00000e+00  1.00000e+01     no limits
+   583 norm1        1.00000e+00  1.00000e+01     no limits
+   584 intens1      1.00000e+00  constant
+   585 c2           0.00000e+00  1.00000e+00     no limits
+   586 sigma2      -1.00000e+00  1.00000e+01     no limits
+   587 norm2        2.00000e+00  1.00000e+01     no limits
+   588 intens2      1.00000e+00  constant
+   589 c3           0.00000e+00  1.00000e+00     no limits
+   590 sigma3      -1.00000e+00  1.00000e+01     no limits
+   591 norm3        3.00000e+00  1.00000e+01     no limits
+   592 intens3      1.00000e+00  constant
+   593 c4           0.00000e+00  1.00000e+00     no limits
+   594 sigma4      -1.00000e+00  1.00000e+01     no limits
+   595 norm4        4.00000e+00  1.00000e+01     no limits
+   596 intens4      1.00000e+00  constant
+   597 c5           0.00000e+00  1.00000e+00     no limits
+   598 sigma5      -1.00000e+00  1.00000e+01     no limits
+   599 norm5        5.00000e+00  1.00000e+01     no limits
+   600 intens5      1.00000e+00  constant
+   601 c6           0.00000e+00  1.00000e+00     no limits
+   602 sigma6      -1.00000e+00  1.00000e+01     no limits
+   603 norm6        6.00000e+00  1.00000e+01     no limits
+   604 intens6      1.00000e+00  constant
+   605 c7           0.00000e+00  1.00000e+00     no limits
+   606 sigma7      -1.00000e+00  1.00000e+01     no limits
+   607 norm7        7.00000e+00  1.00000e+01     no limits
+   608 intens7      1.00000e+00  constant
+   609 c8           0.00000e+00  1.00000e+00     no limits
+   610 sigma8      -1.00000e+00  1.00000e+01     no limits
+   611 norm8        8.00000e+00  1.00000e+01     no limits
+   612 intens8      1.00000e+00  constant
+   613 c9           0.00000e+00  1.00000e+00     no limits
+   614 sigma9      -1.00000e+00  1.00000e+01     no limits
+   615 norm9        9.00000e+00  1.00000e+01     no limits
+   616 intens9      1.00000e+00  constant
+   617 c10          0.00000e+00  1.00000e+00     no limits
+   618 sigma10     -1.00000e+00  1.00000e+01     no limits
+   619 norm10       1.00000e+01  1.00000e+01     no limits
+   620 intens10     1.00000e+00  constant
+   621 c11          0.00000e+00  1.00000e+00     no limits
+   622 sigma11     -1.00000e+00  1.00000e+01     no limits
+   623 norm11       1.10000e+01  1.00000e+01     no limits
+   624 intens11     1.00000e+00  constant
+   625 c12          0.00000e+00  1.00000e+00     no limits
+   626 sigma12     -1.00000e+00  1.00000e+01     no limits
+   627 norm12       1.20000e+01  1.00000e+01     no limits
+   628 intens12     1.00000e+00  constant
+   629 c13          0.00000e+00  1.00000e+00     no limits
+   630 sigma13     -1.00000e+00  1.00000e+01     no limits
+   631 norm13       1.30000e+01  1.00000e+01     no limits
+   632 intens13     1.00000e+00  constant
+   633 c14          0.00000e+00  1.00000e+00     no limits
+   634 sigma14     -1.00000e+00  1.00000e+01     no limits
+   635 norm14       1.40000e+01  1.00000e+01     no limits
+   636 intens14     1.00000e+00  constant
+   637 c15          0.00000e+00  1.00000e+00     no limits
+   638 sigma15     -1.00000e+00  1.00000e+01     no limits
+   639 norm15       1.50000e+01  1.00000e+01     no limits
+   640 intens15     1.00000e+00  constant
+   641 c16          0.00000e+00  1.00000e+00     no limits
+   642 sigma16     -1.00000e+00  1.00000e+01     no limits
+   643 norm16       1.60000e+01  1.00000e+01     no limits
+   644 intens16     1.00000e+00  constant
+   645 c17          0.00000e+00  1.00000e+00     no limits
+   646 sigma17     -1.00000e+00  1.00000e+01     no limits
+   647 norm17       1.70000e+01  1.00000e+01     no limits
+   648 intens17     1.00000e+00  constant
+   649 c18          0.00000e+00  1.00000e+00     no limits
+   650 sigma18     -1.00000e+00  1.00000e+01     no limits
+   651 norm18       1.80000e+01  1.00000e+01     no limits
+   652 intens18     1.00000e+00  constant
+   653 c19          0.00000e+00  1.00000e+00     no limits
+   654 sigma19     -1.00000e+00  1.00000e+01     no limits
+   655 norm19       1.90000e+01  1.00000e+01     no limits
+   656 intens19     1.00000e+00  constant
+   657 c20          0.00000e+00  1.00000e+00     no limits
+   658 sigma20     -1.00000e+00  1.00000e+01     no limits
+   659 norm20       2.00000e+01  1.00000e+01     no limits
+   660 intens20     1.00000e+00  constant
+   661 c21          0.00000e+00  1.00000e+00     no limits
+   662 sigma21     -1.00000e+00  1.00000e+01     no limits
+   663 norm21       2.10000e+01  1.00000e+01     no limits
+   664 intens21     1.00000e+00  constant
+   665 c22          0.00000e+00  1.00000e+00     no limits
+   666 sigma22     -1.00000e+00  1.00000e+01     no limits
+   667 norm22       2.20000e+01  1.00000e+01     no limits
+   668 intens22     1.00000e+00  constant
+   669 c23          0.00000e+00  1.00000e+00     no limits
+   670 sigma23     -1.00000e+00  1.00000e+01     no limits
+   671 norm23       2.30000e+01  1.00000e+01     no limits
+   672 intens23     1.00000e+00  constant
+   673 c24          0.00000e+00  1.00000e+00     no limits
+   674 sigma24     -1.00000e+00  1.00000e+01     no limits
+   675 norm24       2.40000e+01  1.00000e+01     no limits
+   676 intens24     1.00000e+00  constant
+   677 c25          0.00000e+00  1.00000e+00     no limits
+   678 sigma25     -1.00000e+00  1.00000e+01     no limits
+   679 norm25       2.50000e+01  1.00000e+01     no limits
+   680 intens25     1.00000e+00  constant
+   681 c26          0.00000e+00  1.00000e+00     no limits
+   682 sigma26     -1.00000e+00  1.00000e+01     no limits
+   683 norm26       2.60000e+01  1.00000e+01     no limits
+   684 intens26     1.00000e+00  constant
+   685 c27          0.00000e+00  1.00000e+00     no limits
+   686 sigma27     -1.00000e+00  1.00000e+01     no limits
+   687 norm27       2.70000e+01  1.00000e+01     no limits
+   688 intens27     1.00000e+00  constant
+   689 c28          0.00000e+00  1.00000e+00     no limits
+   690 sigma28     -1.00000e+00  1.00000e+01     no limits
+   691 norm28       2.80000e+01  1.00000e+01     no limits
+   692 intens28     1.00000e+00  constant
+   693 c29          0.00000e+00  1.00000e+00     no limits
+   694 sigma29     -1.00000e+00  1.00000e+01     no limits
+   695 norm29       2.90000e+01  1.00000e+01     no limits
+   696 intens29     1.00000e+00  constant
+   697 c30          0.00000e+00  1.00000e+00     no limits
+   698 sigma30     -1.00000e+00  1.00000e+01     no limits
+   699 norm30       3.00000e+01  1.00000e+01     no limits
+   700 intens30     1.00000e+00  constant
+   701 c31          0.00000e+00  1.00000e+00     no limits
+   702 sigma31     -1.00000e+00  1.00000e+01     no limits
+   703 norm31       3.10000e+01  1.00000e+01     no limits
+   704 intens31     1.00000e+00  constant
+   705 c32          0.00000e+00  1.00000e+00     no limits
+   706 sigma32     -1.00000e+00  1.00000e+01     no limits
+   707 norm32       3.20000e+01  1.00000e+01     no limits
+   708 intens32     1.00000e+00  constant
+   709 c33          0.00000e+00  1.00000e+00     no limits
+   710 sigma33     -1.00000e+00  1.00000e+01     no limits
+   711 norm33       3.30000e+01  1.00000e+01     no limits
+   712 intens33     1.00000e+00  constant
+   713 c34          0.00000e+00  1.00000e+00     no limits
+   714 sigma34     -1.00000e+00  1.00000e+01     no limits
+   715 norm34       3.40000e+01  1.00000e+01     no limits
+   716 intens34     1.00000e+00  constant
+   717 c35          0.00000e+00  1.00000e+00     no limits
+   718 sigma35     -1.00000e+00  1.00000e+01     no limits
+   719 norm35       3.50000e+01  1.00000e+01     no limits
+   720 intens35     1.00000e+00  constant
+   721 c36          0.00000e+00  1.00000e+00     no limits
+   722 sigma36     -1.00000e+00  1.00000e+01     no limits
+   723 norm36       3.60000e+01  1.00000e+01     no limits
+   724 intens36     1.00000e+00  constant
+   725 c37          0.00000e+00  1.00000e+00     no limits
+   726 sigma37     -1.00000e+00  1.00000e+01     no limits
+   727 norm37       3.70000e+01  1.00000e+01     no limits
+   728 intens37     1.00000e+00  constant
+   729 c38          0.00000e+00  1.00000e+00     no limits
+   730 sigma38     -1.00000e+00  1.00000e+01     no limits
+   731 norm38       3.80000e+01  1.00000e+01     no limits
+   732 intens38     1.00000e+00  constant
+   733 c39          0.00000e+00  1.00000e+00     no limits
+   734 sigma39     -1.00000e+00  1.00000e+01     no limits
+   735 norm39       3.90000e+01  1.00000e+01     no limits
+   736 intens39     1.00000e+00  constant
+   737 c40          0.00000e+00  1.00000e+00     no limits
+   738 sigma40     -1.00000e+00  1.00000e+01     no limits
+   739 norm40       4.00000e+01  1.00000e+01     no limits
+   740 intens40     1.00000e+00  constant
+   741 c41          0.00000e+00  1.00000e+00     no limits
+   742 sigma41     -1.00000e+00  1.00000e+01     no limits
+   743 norm41       4.10000e+01  1.00000e+01     no limits
+   744 intens41     1.00000e+00  constant
+   745 c42          0.00000e+00  1.00000e+00     no limits
+   746 sigma42     -1.00000e+00  1.00000e+01     no limits
+   747 norm42       4.20000e+01  1.00000e+01     no limits
+   748 intens42     1.00000e+00  constant
+   749 c43          0.00000e+00  1.00000e+00     no limits
+   750 sigma43     -1.00000e+00  1.00000e+01     no limits
+   751 norm43       4.30000e+01  1.00000e+01     no limits
+   752 intens43     1.00000e+00  constant
+   753 c44          0.00000e+00  1.00000e+00     no limits
+   754 sigma44     -1.00000e+00  1.00000e+01     no limits
+   755 norm44       4.40000e+01  1.00000e+01     no limits
+   756 intens44     1.00000e+00  constant
+   757 c45          0.00000e+00  1.00000e+00     no limits
+   758 sigma45     -1.00000e+00  1.00000e+01     no limits
+   759 norm45       4.50000e+01  1.00000e+01     no limits
+   760 intens45     1.00000e+00  constant
+   761 c46          0.00000e+00  1.00000e+00     no limits
+   762 sigma46     -1.00000e+00  1.00000e+01     no limits
+   763 norm46       4.60000e+01  1.00000e+01     no limits
+   764 intens46     1.00000e+00  constant
+   765 c47          0.00000e+00  1.00000e+00     no limits
+   766 sigma47     -1.00000e+00  1.00000e+01     no limits
+   767 norm47       4.70000e+01  1.00000e+01     no limits
+   768 intens47     1.00000e+00  constant
+   769 c48          0.00000e+00  1.00000e+00     no limits
+   770 sigma48     -1.00000e+00  1.00000e+01     no limits
+   771 norm48       4.80000e+01  1.00000e+01     no limits
+   772 intens48     1.00000e+00  constant
+   773 c49          0.00000e+00  1.00000e+00     no limits
+   774 sigma49     -1.00000e+00  1.00000e+01     no limits
+   775 norm49       4.90000e+01  1.00000e+01     no limits
+   776 intens49     1.00000e+00  constant
+   777 c50          0.00000e+00  1.00000e+00     no limits
+   778 sigma50     -1.00000e+00  1.00000e+01     no limits
+   779 norm50       5.00000e+01  1.00000e+01     no limits
+   780 intens50     1.00000e+00  constant
+   781 c51          0.00000e+00  1.00000e+00     no limits
+   782 sigma51     -1.00000e+00  1.00000e+01     no limits
+   783 norm51       5.10000e+01  1.00000e+01     no limits
+   784 intens51     1.00000e+00  constant
+   785 c52          0.00000e+00  1.00000e+00     no limits
+   786 sigma52     -1.00000e+00  1.00000e+01     no limits
+   787 norm52       5.20000e+01  1.00000e+01     no limits
+   788 intens52     1.00000e+00  constant
+   789 c53          0.00000e+00  1.00000e+00     no limits
+   790 sigma53     -1.00000e+00  1.00000e+01     no limits
+   791 norm53       5.30000e+01  1.00000e+01     no limits
+   792 intens53     1.00000e+00  constant
+   793 c54          0.00000e+00  1.00000e+00     no limits
+   794 sigma54     -1.00000e+00  1.00000e+01     no limits
+   795 norm54       5.40000e+01  1.00000e+01     no limits
+   796 intens54     1.00000e+00  constant
+   797 c55          0.00000e+00  1.00000e+00     no limits
+   798 sigma55     -1.00000e+00  1.00000e+01     no limits
+   799 norm55       5.50000e+01  1.00000e+01     no limits
+   800 intens55     1.00000e+00  constant
+   801 c56          0.00000e+00  1.00000e+00     no limits
+   802 sigma56     -1.00000e+00  1.00000e+01     no limits
+   803 norm56       5.60000e+01  1.00000e+01     no limits
+   804 intens56     1.00000e+00  constant
+   805 c57          0.00000e+00  1.00000e+00     no limits
+   806 sigma57     -1.00000e+00  1.00000e+01     no limits
+   807 norm57       5.70000e+01  1.00000e+01     no limits
+   808 intens57     1.00000e+00  constant
+   809 c58          0.00000e+00  1.00000e+00     no limits
+   810 sigma58     -1.00000e+00  1.00000e+01     no limits
+   811 norm58       5.80000e+01  1.00000e+01     no limits
+   812 intens58     1.00000e+00  constant
+   813 c59          0.00000e+00  1.00000e+00     no limits
+   814 sigma59     -1.00000e+00  1.00000e+01     no limits
+   815 norm59       5.90000e+01  1.00000e+01     no limits
+   816 intens59     1.00000e+00  constant
+   817 c60          0.00000e+00  1.00000e+00     no limits
+   818 sigma60     -1.00000e+00  1.00000e+01     no limits
+   819 norm60       6.00000e+01  1.00000e+01     no limits
+   820 intens60     1.00000e+00  constant
+   821 c61          0.00000e+00  1.00000e+00     no limits
+   822 sigma61     -1.00000e+00  1.00000e+01     no limits
+   823 norm61       6.10000e+01  1.00000e+01     no limits
+   824 intens61     1.00000e+00  constant
+   825 c62          0.00000e+00  1.00000e+00     no limits
+   826 sigma62     -1.00000e+00  1.00000e+01     no limits
+   827 norm62       6.20000e+01  1.00000e+01     no limits
+   828 intens62     1.00000e+00  constant
+   829 c63          0.00000e+00  1.00000e+00     no limits
+   830 sigma63     -1.00000e+00  1.00000e+01     no limits
+   831 norm63       6.30000e+01  1.00000e+01     no limits
+   832 intens63     1.00000e+00  constant
+   833 c64          0.00000e+00  1.00000e+00     no limits
+   834 sigma64     -1.00000e+00  1.00000e+01     no limits
+   835 norm64       6.40000e+01  1.00000e+01     no limits
+   836 intens64     1.00000e+00  constant
+   837 c65          0.00000e+00  1.00000e+00     no limits
+   838 sigma65     -1.00000e+00  1.00000e+01     no limits
+   839 norm65       6.50000e+01  1.00000e+01     no limits
+   840 intens65     1.00000e+00  constant
+   841 c66          0.00000e+00  1.00000e+00     no limits
+   842 sigma66     -1.00000e+00  1.00000e+01     no limits
+   843 norm66       6.60000e+01  1.00000e+01     no limits
+   844 intens66     1.00000e+00  constant
+   845 c67          0.00000e+00  1.00000e+00     no limits
+   846 sigma67     -1.00000e+00  1.00000e+01     no limits
+   847 norm67       6.70000e+01  1.00000e+01     no limits
+   848 intens67     1.00000e+00  constant
+   849 c68          0.00000e+00  1.00000e+00     no limits
+   850 sigma68     -1.00000e+00  1.00000e+01     no limits
+   851 norm68       6.80000e+01  1.00000e+01     no limits
+   852 intens68     1.00000e+00  constant
+   853 c69          0.00000e+00  1.00000e+00     no limits
+   854 sigma69     -1.00000e+00  1.00000e+01     no limits
+   855 norm69       6.90000e+01  1.00000e+01     no limits
+   856 intens69     1.00000e+00  constant
+   857 c70          0.00000e+00  1.00000e+00     no limits
+   858 sigma70     -1.00000e+00  1.00000e+01     no limits
+   859 norm70       7.00000e+01  1.00000e+01     no limits
+   860 intens70     1.00000e+00  constant
+   861 c71          0.00000e+00  1.00000e+00     no limits
+   862 sigma71     -1.00000e+00  1.00000e+01     no limits
+   863 norm71       7.10000e+01  1.00000e+01     no limits
+   864 intens71     1.00000e+00  constant
+   865 c72          0.00000e+00  1.00000e+00     no limits
+   866 sigma72     -1.00000e+00  1.00000e+01     no limits
+   867 norm72       7.20000e+01  1.00000e+01     no limits
+   868 intens72     1.00000e+00  constant
+   869 c73          0.00000e+00  1.00000e+00     no limits
+   870 sigma73     -1.00000e+00  1.00000e+01     no limits
+   871 norm73       7.30000e+01  1.00000e+01     no limits
+   872 intens73     1.00000e+00  constant
+   873 c74          0.00000e+00  1.00000e+00     no limits
+   874 sigma74     -1.00000e+00  1.00000e+01     no limits
+   875 norm74       7.40000e+01  1.00000e+01     no limits
+   876 intens74     1.00000e+00  constant
+   877 c75          0.00000e+00  1.00000e+00     no limits
+   878 sigma75     -1.00000e+00  1.00000e+01     no limits
+   879 norm75       7.50000e+01  1.00000e+01     no limits
+   880 intens75     1.00000e+00  constant
+   881 c76          0.00000e+00  1.00000e+00     no limits
+   882 sigma76     -1.00000e+00  1.00000e+01     no limits
+   883 norm76       7.60000e+01  1.00000e+01     no limits
+   884 intens76     1.00000e+00  constant
+   885 c77          0.00000e+00  1.00000e+00     no limits
+   886 sigma77     -1.00000e+00  1.00000e+01     no limits
+   887 norm77       7.70000e+01  1.00000e+01     no limits
+   888 intens77     1.00000e+00  constant
+   889 c78          0.00000e+00  1.00000e+00     no limits
+   890 sigma78     -1.00000e+00  1.00000e+01     no limits
+   891 norm78       7.80000e+01  1.00000e+01     no limits
+   892 intens78     1.00000e+00  constant
+   893 c79          0.00000e+00  1.00000e+00     no limits
+   894 sigma79     -1.00000e+00  1.00000e+01     no limits
+   895 norm79       7.90000e+01  1.00000e+01     no limits
+   896 intens79     1.00000e+00  constant
+   897 c80          0.00000e+00  1.00000e+00     no limits
+   898 sigma80     -1.00000e+00  1.00000e+01     no limits
+   899 norm80       8.00000e+01  1.00000e+01     no limits
+   900 intens80     1.00000e+00  constant
+   901 c81          0.00000e+00  1.00000e+00     no limits
+   902 sigma81     -1.00000e+00  1.00000e+01     no limits
+   903 norm81       8.10000e+01  1.00000e+01     no limits
+   904 intens81     1.00000e+00  constant
+   905 c82          0.00000e+00  1.00000e+00     no limits
+   906 sigma82     -1.00000e+00  1.00000e+01     no limits
+   907 norm82       8.20000e+01  1.00000e+01     no limits
+   908 intens82     1.00000e+00  constant
+   909 c83          0.00000e+00  1.00000e+00     no limits
+   910 sigma83     -1.00000e+00  1.00000e+01     no limits
+   911 norm83       8.30000e+01  1.00000e+01     no limits
+   912 intens83     1.00000e+00  constant
+   913 c84          0.00000e+00  1.00000e+00     no limits
+   914 sigma84     -1.00000e+00  1.00000e+01     no limits
+   915 norm84       8.40000e+01  1.00000e+01     no limits
+   916 intens84     1.00000e+00  constant
+   917 c85          0.00000e+00  1.00000e+00     no limits
+   918 sigma85     -1.00000e+00  1.00000e+01     no limits
+   919 norm85       8.50000e+01  1.00000e+01     no limits
+   920 intens85     1.00000e+00  constant
+   921 c86          0.00000e+00  1.00000e+00     no limits
+   922 sigma86     -1.00000e+00  1.00000e+01     no limits
+   923 norm86       8.60000e+01  1.00000e+01     no limits
+   924 intens86     1.00000e+00  constant
+   925 c87          0.00000e+00  1.00000e+00     no limits
+   926 sigma87     -1.00000e+00  1.00000e+01     no limits
+   927 norm87       8.70000e+01  1.00000e+01     no limits
+   928 intens87     1.00000e+00  constant
+   929 c88          0.00000e+00  1.00000e+00     no limits
+   930 sigma88     -1.00000e+00  1.00000e+01     no limits
+   931 norm88       8.80000e+01  1.00000e+01     no limits
+   932 intens88     1.00000e+00  constant
+   933 c89          0.00000e+00  1.00000e+00     no limits
+   934 sigma89     -1.00000e+00  1.00000e+01     no limits
+   935 norm89       8.90000e+01  1.00000e+01     no limits
+   936 intens89     1.00000e+00  constant
+   937 c90          0.00000e+00  1.00000e+00     no limits
+   938 sigma90     -1.00000e+00  1.00000e+01     no limits
+   939 norm90       9.00000e+01  1.00000e+01     no limits
+   940 intens90     1.00000e+00  constant
+   941 c91          0.00000e+00  1.00000e+00     no limits
+   942 sigma91     -1.00000e+00  1.00000e+01     no limits
+   943 norm91       9.10000e+01  1.00000e+01     no limits
+   944 intens91     1.00000e+00  constant
+   945 c92          0.00000e+00  1.00000e+00     no limits
+   946 sigma92     -1.00000e+00  1.00000e+01     no limits
+   947 norm92       9.20000e+01  1.00000e+01     no limits
+   948 intens92     1.00000e+00  constant
+   949 c93          0.00000e+00  1.00000e+00     no limits
+   950 sigma93     -1.00000e+00  1.00000e+01     no limits
+   951 norm93       9.30000e+01  1.00000e+01     no limits
+   952 intens93     1.00000e+00  constant
+   953 c94          0.00000e+00  1.00000e+00     no limits
+   954 sigma94     -1.00000e+00  1.00000e+01     no limits
+   955 norm94       9.40000e+01  1.00000e+01     no limits
+   956 intens94     1.00000e+00  constant
+   957 c95          0.00000e+00  1.00000e+00     no limits
+   958 sigma95     -1.00000e+00  1.00000e+01     no limits
+   959 norm95       9.50000e+01  1.00000e+01     no limits
+   960 intens95     1.00000e+00  constant
+   961 c96          0.00000e+00  1.00000e+00     no limits
+   962 sigma96     -1.00000e+00  1.00000e+01     no limits
+   963 norm96       9.60000e+01  1.00000e+01     no limits
+   964 intens96     1.00000e+00  constant
+   965 c97          0.00000e+00  1.00000e+00     no limits
+   966 sigma97     -1.00000e+00  1.00000e+01     no limits
+   967 norm97       9.70000e+01  1.00000e+01     no limits
+   968 intens97     1.00000e+00  constant
+   969 c98          0.00000e+00  1.00000e+00     no limits
+   970 sigma98     -1.00000e+00  1.00000e+01     no limits
+   971 norm98       9.80000e+01  1.00000e+01     no limits
+   972 intens98     1.00000e+00  constant
+   973 c99          0.00000e+00  1.00000e+00     no limits
+   974 sigma99     -1.00000e+00  1.00000e+01     no limits
+   975 norm99       9.90000e+01  1.00000e+01     no limits
+   976 intens99     1.00000e+00  constant
+   977 c100         0.00000e+00  1.00000e+00     no limits
+   978 sigma100    -1.00000e+00  1.00000e+01     no limits
+   979 norm100      1.00000e+02  1.00000e+01     no limits
+   980 intens100    1.00000e+00  constant
+   981 c101         0.00000e+00  1.00000e+00     no limits
+   982 sigma101    -1.00000e+00  1.00000e+01     no limits
+   983 norm101      1.01000e+02  1.00000e+01     no limits
+   984 intens101    1.00000e+00  constant
+   985 c102         0.00000e+00  1.00000e+00     no limits
+   986 sigma102    -1.00000e+00  1.00000e+01     no limits
+   987 norm102      1.02000e+02  1.00000e+01     no limits
+   988 intens102    1.00000e+00  constant
+   989 c103         0.00000e+00  1.00000e+00     no limits
+   990 sigma103    -1.00000e+00  1.00000e+01     no limits
+   991 norm103      1.03000e+02  1.00000e+01     no limits
+   992 intens103    1.00000e+00  constant
+   993 c104         0.00000e+00  1.00000e+00     no limits
+   994 sigma104    -1.00000e+00  1.00000e+01     no limits
+   995 norm104      1.04000e+02  1.00000e+01     no limits
+   996 intens104    1.00000e+00  constant
+   997 c105         0.00000e+00  1.00000e+00     no limits
+   998 sigma105    -1.00000e+00  1.00000e+01     no limits
+   999 norm105      1.05000e+02  1.00000e+01     no limits
+  1000 intens105    1.00000e+00  constant
+  1001 c106         0.00000e+00  1.00000e+00     no limits
+  1002 sigma106    -1.00000e+00  1.00000e+01     no limits
+  1003 norm106      1.06000e+02  1.00000e+01     no limits
+  1004 intens106    1.00000e+00  constant
+  1005 c107         0.00000e+00  1.00000e+00     no limits
+  1006 sigma107    -1.00000e+00  1.00000e+01     no limits
+  1007 norm107      1.07000e+02  1.00000e+01     no limits
+  1008 intens107    1.00000e+00  constant
+  1009 c108         0.00000e+00  1.00000e+00     no limits
+  1010 sigma108    -1.00000e+00  1.00000e+01     no limits
+  1011 norm108      1.08000e+02  1.00000e+01     no limits
+  1012 intens108    1.00000e+00  constant
+  1013 c109         0.00000e+00  1.00000e+00     no limits
+  1014 sigma109    -1.00000e+00  1.00000e+01     no limits
+  1015 norm109      1.09000e+02  1.00000e+01     no limits
+  1016 intens109    1.00000e+00  constant
+  1017 c110         0.00000e+00  1.00000e+00     no limits
+  1018 sigma110    -1.00000e+00  1.00000e+01     no limits
+  1019 norm110      1.10000e+02  1.00000e+01     no limits
+  1020 intens110    1.00000e+00  constant
+  1021 c111         0.00000e+00  1.00000e+00     no limits
+  1022 sigma111    -1.00000e+00  1.00000e+01     no limits
+  1023 norm111      1.11000e+02  1.00000e+01     no limits
+  1024 intens111    1.00000e+00  constant
+  1025 c112         0.00000e+00  1.00000e+00     no limits
+  1026 sigma112    -1.00000e+00  1.00000e+01     no limits
+  1027 norm112      1.12000e+02  1.00000e+01     no limits
+  1028 intens112    1.00000e+00  constant
+  1029 c113         0.00000e+00  1.00000e+00     no limits
+  1030 sigma113    -1.00000e+00  1.00000e+01     no limits
+  1031 norm113      1.13000e+02  1.00000e+01     no limits
+  1032 intens113    1.00000e+00  constant
+  1033 c114         0.00000e+00  1.00000e+00     no limits
+  1034 sigma114    -1.00000e+00  1.00000e+01     no limits
+  1035 norm114      1.14000e+02  1.00000e+01     no limits
+  1036 intens114    1.00000e+00  constant
+  1037 c115         0.00000e+00  1.00000e+00     no limits
+  1038 sigma115    -1.00000e+00  1.00000e+01     no limits
+  1039 norm115      1.15000e+02  1.00000e+01     no limits
+  1040 intens115    1.00000e+00  constant
+  1041 c116         0.00000e+00  1.00000e+00     no limits
+  1042 sigma116    -1.00000e+00  1.00000e+01     no limits
+  1043 norm116      1.16000e+02  1.00000e+01     no limits
+  1044 intens116    1.00000e+00  constant
+  1045 c117         0.00000e+00  1.00000e+00     no limits
+  1046 sigma117    -1.00000e+00  1.00000e+01     no limits
+  1047 norm117      1.17000e+02  1.00000e+01     no limits
+  1048 intens117    1.00000e+00  constant
+  1049 c118         0.00000e+00  1.00000e+00     no limits
+  1050 sigma118    -1.00000e+00  1.00000e+01     no limits
+  1051 norm118      1.18000e+02  1.00000e+01     no limits
+  1052 intens118    1.00000e+00  constant
+  1053 c119         0.00000e+00  1.00000e+00     no limits
+  1054 sigma119    -1.00000e+00  1.00000e+01     no limits
+  1055 norm119      1.19000e+02  1.00000e+01     no limits
+  1056 intens119    1.00000e+00  constant
+  1057 c120         0.00000e+00  1.00000e+00     no limits
+  1058 sigma120    -1.00000e+00  1.00000e+01     no limits
+  1059 norm120      1.20000e+02  1.00000e+01     no limits
+  1060 intens120    1.00000e+00  constant
+  1061 c121         0.00000e+00  1.00000e+00     no limits
+  1062 sigma121    -1.00000e+00  1.00000e+01     no limits
+  1063 norm121      1.21000e+02  1.00000e+01     no limits
+  1064 intens121    1.00000e+00  constant
+  1065 c122         0.00000e+00  1.00000e+00     no limits
+  1066 sigma122    -1.00000e+00  1.00000e+01     no limits
+  1067 norm122      1.22000e+02  1.00000e+01     no limits
+  1068 intens122    1.00000e+00  constant
+  1069 c123         0.00000e+00  1.00000e+00     no limits
+  1070 sigma123    -1.00000e+00  1.00000e+01     no limits
+  1071 norm123      1.23000e+02  1.00000e+01     no limits
+  1072 intens123    1.00000e+00  constant
+  1073 c124         0.00000e+00  1.00000e+00     no limits
+  1074 sigma124    -1.00000e+00  1.00000e+01     no limits
+  1075 norm124      1.24000e+02  1.00000e+01     no limits
+  1076 intens124    1.00000e+00  constant
+  1077 c125         0.00000e+00  1.00000e+00     no limits
+  1078 sigma125    -1.00000e+00  1.00000e+01     no limits
+  1079 norm125      1.25000e+02  1.00000e+01     no limits
+  1080 intens125    1.00000e+00  constant
+  1081 c126         0.00000e+00  1.00000e+00     no limits
+  1082 sigma126    -1.00000e+00  1.00000e+01     no limits
+  1083 norm126      1.26000e+02  1.00000e+01     no limits
+  1084 intens126    1.00000e+00  constant
+  1085 c127         0.00000e+00  1.00000e+00     no limits
+  1086 sigma127    -1.00000e+00  1.00000e+01     no limits
+  1087 norm127      1.27000e+02  1.00000e+01     no limits
+  1088 intens127    1.00000e+00  constant
+  1089 c128         0.00000e+00  1.00000e+00     no limits
+  1090 sigma128    -1.00000e+00  1.00000e+01     no limits
+  1091 norm128      1.28000e+02  1.00000e+01     no limits
+  1092 intens128    1.00000e+00  constant
+  1093 c129         0.00000e+00  1.00000e+00     no limits
+  1094 sigma129    -1.00000e+00  1.00000e+01     no limits
+  1095 norm129      1.29000e+02  1.00000e+01     no limits
+  1096 intens129    1.00000e+00  constant
+  1097 c130         0.00000e+00  1.00000e+00     no limits
+  1098 sigma130    -1.00000e+00  1.00000e+01     no limits
+  1099 norm130      1.30000e+02  1.00000e+01     no limits
+  1100 intens130    1.00000e+00  constant
+  1101 c131         0.00000e+00  1.00000e+00     no limits
+  1102 sigma131    -1.00000e+00  1.00000e+01     no limits
+  1103 norm131      1.31000e+02  1.00000e+01     no limits
+  1104 intens131    1.00000e+00  constant
+  1105 c132         0.00000e+00  1.00000e+00     no limits
+  1106 sigma132    -1.00000e+00  1.00000e+01     no limits
+  1107 norm132      1.32000e+02  1.00000e+01     no limits
+  1108 intens132    1.00000e+00  constant
+  1109 c133         0.00000e+00  1.00000e+00     no limits
+  1110 sigma133    -1.00000e+00  1.00000e+01     no limits
+  1111 norm133      1.33000e+02  1.00000e+01     no limits
+  1112 intens133    1.00000e+00  constant
+  1113 c134         0.00000e+00  1.00000e+00     no limits
+  1114 sigma134    -1.00000e+00  1.00000e+01     no limits
+  1115 norm134      1.34000e+02  1.00000e+01     no limits
+  1116 intens134    1.00000e+00  constant
+  1117 c135         0.00000e+00  1.00000e+00     no limits
+  1118 sigma135    -1.00000e+00  1.00000e+01     no limits
+  1119 norm135      1.35000e+02  1.00000e+01     no limits
+  1120 intens135    1.00000e+00  constant
+  1121 c136         0.00000e+00  1.00000e+00     no limits
+  1122 sigma136    -1.00000e+00  1.00000e+01     no limits
+  1123 norm136      1.36000e+02  1.00000e+01     no limits
+  1124 intens136    1.00000e+00  constant
+  1125 c137         0.00000e+00  1.00000e+00     no limits
+  1126 sigma137    -1.00000e+00  1.00000e+01     no limits
+  1127 norm137      1.37000e+02  1.00000e+01     no limits
+  1128 intens137    1.00000e+00  constant
+  1129 c138         0.00000e+00  1.00000e+00     no limits
+  1130 sigma138    -1.00000e+00  1.00000e+01     no limits
+  1131 norm138      1.38000e+02  1.00000e+01     no limits
+  1132 intens138    1.00000e+00  constant
+  1133 c139         0.00000e+00  1.00000e+00     no limits
+  1134 sigma139    -1.00000e+00  1.00000e+01     no limits
+  1135 norm139      1.39000e+02  1.00000e+01     no limits
+  1136 intens139    1.00000e+00  constant
+  1137 c140         0.00000e+00  1.00000e+00     no limits
+  1138 sigma140    -1.00000e+00  1.00000e+01     no limits
+  1139 norm140      1.40000e+02  1.00000e+01     no limits
+  1140 intens140    1.00000e+00  constant
+  1141 c141         0.00000e+00  1.00000e+00     no limits
+  1142 sigma141    -1.00000e+00  1.00000e+01     no limits
+  1143 norm141      1.41000e+02  1.00000e+01     no limits
+  1144 intens141    1.00000e+00  constant
+  1145 c142         0.00000e+00  1.00000e+00     no limits
+  1146 sigma142    -1.00000e+00  1.00000e+01     no limits
+  1147 norm142      1.42000e+02  1.00000e+01     no limits
+  1148 intens142    1.00000e+00  constant
+  1149 c143         0.00000e+00  1.00000e+00     no limits
+  1150 sigma143    -1.00000e+00  1.00000e+01     no limits
+  1151 norm143      1.43000e+02  1.00000e+01     no limits
+  1152 intens143    1.00000e+00  constant
+  1153 c144         0.00000e+00  1.00000e+00     no limits
+  1154 sigma144    -1.00000e+00  1.00000e+01     no limits
+  1155 norm144      1.44000e+02  1.00000e+01     no limits
+  1156 intens144    1.00000e+00  constant
+  1157 c145         0.00000e+00  1.00000e+00     no limits
+  1158 sigma145    -1.00000e+00  1.00000e+01     no limits
+  1159 norm145      1.45000e+02  1.00000e+01     no limits
+  1160 intens145    1.00000e+00  constant
+  1161 c146         0.00000e+00  1.00000e+00     no limits
+  1162 sigma146    -1.00000e+00  1.00000e+01     no limits
+  1163 norm146      1.46000e+02  1.00000e+01     no limits
+  1164 intens146    1.00000e+00  constant
+  1165 c147         0.00000e+00  1.00000e+00     no limits
+  1166 sigma147    -1.00000e+00  1.00000e+01     no limits
+  1167 norm147      1.47000e+02  1.00000e+01     no limits
+  1168 intens147    1.00000e+00  constant
+  1169 c148         0.00000e+00  1.00000e+00     no limits
+  1170 sigma148    -1.00000e+00  1.00000e+01     no limits
+  1171 norm148      1.48000e+02  1.00000e+01     no limits
+  1172 intens148    1.00000e+00  constant
+  1173 c149         0.00000e+00  1.00000e+00     no limits
+  1174 sigma149    -1.00000e+00  1.00000e+01     no limits
+  1175 norm149      1.49000e+02  1.00000e+01     no limits
+  1176 intens149    1.00000e+00  constant
+  1177 c150         0.00000e+00  1.00000e+00     no limits
+  1178 sigma150    -1.00000e+00  1.00000e+01     no limits
+  1179 norm150      1.50000e+02  1.00000e+01     no limits
+  1180 intens150    1.00000e+00  constant
+  1181 c151         0.00000e+00  1.00000e+00     no limits
+  1182 sigma151    -1.00000e+00  1.00000e+01     no limits
+  1183 norm151      1.51000e+02  1.00000e+01     no limits
+  1184 intens151    1.00000e+00  constant
+  1185 c152         0.00000e+00  1.00000e+00     no limits
+  1186 sigma152    -1.00000e+00  1.00000e+01     no limits
+  1187 norm152      1.52000e+02  1.00000e+01     no limits
+  1188 intens152    1.00000e+00  constant
+  1189 c153         0.00000e+00  1.00000e+00     no limits
+  1190 sigma153    -1.00000e+00  1.00000e+01     no limits
+  1191 norm153      1.53000e+02  1.00000e+01     no limits
+  1192 intens153    1.00000e+00  constant
+  1193 c154         0.00000e+00  1.00000e+00     no limits
+  1194 sigma154    -1.00000e+00  1.00000e+01     no limits
+  1195 norm154      1.54000e+02  1.00000e+01     no limits
+  1196 intens154    1.00000e+00  constant
+  1197 c155         0.00000e+00  1.00000e+00     no limits
+  1198 sigma155    -1.00000e+00  1.00000e+01     no limits
+  1199 norm155      1.55000e+02  1.00000e+01     no limits
+  1200 intens155    1.00000e+00  constant
+  1201 c156         0.00000e+00  1.00000e+00     no limits
+  1202 sigma156    -1.00000e+00  1.00000e+01     no limits
+  1203 norm156      1.56000e+02  1.00000e+01     no limits
+  1204 intens156    1.00000e+00  constant
+  1205 c157         0.00000e+00  1.00000e+00     no limits
+  1206 sigma157    -1.00000e+00  1.00000e+01     no limits
+  1207 norm157      1.57000e+02  1.00000e+01     no limits
+  1208 intens157    1.00000e+00  constant
+  1209 c158         0.00000e+00  1.00000e+00     no limits
+  1210 sigma158    -1.00000e+00  1.00000e+01     no limits
+  1211 norm158      1.58000e+02  1.00000e+01     no limits
+  1212 intens158    1.00000e+00  constant
+  1213 c159         0.00000e+00  1.00000e+00     no limits
+  1214 sigma159    -1.00000e+00  1.00000e+01     no limits
+  1215 norm159      1.59000e+02  1.00000e+01     no limits
+  1216 intens159    1.00000e+00  constant
+  1217 c160         0.00000e+00  1.00000e+00     no limits
+  1218 sigma160    -1.00000e+00  1.00000e+01     no limits
+  1219 norm160      1.60000e+02  1.00000e+01     no limits
+  1220 intens160    1.00000e+00  constant
+  1221 c161         0.00000e+00  1.00000e+00     no limits
+  1222 sigma161    -1.00000e+00  1.00000e+01     no limits
+  1223 norm161      1.61000e+02  1.00000e+01     no limits
+  1224 intens161    1.00000e+00  constant
+  1225 c162         0.00000e+00  1.00000e+00     no limits
+  1226 sigma162    -1.00000e+00  1.00000e+01     no limits
+  1227 norm162      1.62000e+02  1.00000e+01     no limits
+  1228 intens162    1.00000e+00  constant
+  1229 c163         0.00000e+00  1.00000e+00     no limits
+  1230 sigma163    -1.00000e+00  1.00000e+01     no limits
+  1231 norm163      1.63000e+02  1.00000e+01     no limits
+  1232 intens163    1.00000e+00  constant
+  1233 c164         0.00000e+00  1.00000e+00     no limits
+  1234 sigma164    -1.00000e+00  1.00000e+01     no limits
+  1235 norm164      1.64000e+02  1.00000e+01     no limits
+  1236 intens164    1.00000e+00  constant
+  1237 c165         0.00000e+00  1.00000e+00     no limits
+  1238 sigma165    -1.00000e+00  1.00000e+01     no limits
+  1239 norm165      1.65000e+02  1.00000e+01     no limits
+  1240 intens165    1.00000e+00  constant
+  1241 c166         0.00000e+00  1.00000e+00     no limits
+  1242 sigma166    -1.00000e+00  1.00000e+01     no limits
+  1243 norm166      1.66000e+02  1.00000e+01     no limits
+  1244 intens166    1.00000e+00  constant
+  1245 c167         0.00000e+00  1.00000e+00     no limits
+  1246 sigma167    -1.00000e+00  1.00000e+01     no limits
+  1247 norm167      1.67000e+02  1.00000e+01     no limits
+  1248 intens167    1.00000e+00  constant
+  1249 c168         0.00000e+00  1.00000e+00     no limits
+  1250 sigma168    -1.00000e+00  1.00000e+01     no limits
+  1251 norm168      1.68000e+02  1.00000e+01     no limits
+  1252 intens168    1.00000e+00  constant
+  1253 c169         0.00000e+00  1.00000e+00     no limits
+  1254 sigma169    -1.00000e+00  1.00000e+01     no limits
+  1255 norm169      1.69000e+02  1.00000e+01     no limits
+  1256 intens169    1.00000e+00  constant
+  1257 c170         0.00000e+00  1.00000e+00     no limits
+  1258 sigma170    -1.00000e+00  1.00000e+01     no limits
+  1259 norm170      1.70000e+02  1.00000e+01     no limits
+  1260 intens170    1.00000e+00  constant
+  1261 c171         0.00000e+00  1.00000e+00     no limits
+  1262 sigma171    -1.00000e+00  1.00000e+01     no limits
+  1263 norm171      1.71000e+02  1.00000e+01     no limits
+  1264 intens171    1.00000e+00  constant
+  1265 c172         0.00000e+00  1.00000e+00     no limits
+  1266 sigma172    -1.00000e+00  1.00000e+01     no limits
+  1267 norm172      1.72000e+02  1.00000e+01     no limits
+  1268 intens172    1.00000e+00  constant
+  1269 c173         0.00000e+00  1.00000e+00     no limits
+  1270 sigma173    -1.00000e+00  1.00000e+01     no limits
+  1271 norm173      1.73000e+02  1.00000e+01     no limits
+  1272 intens173    1.00000e+00  constant
+  1273 c174         0.00000e+00  1.00000e+00     no limits
+  1274 sigma174    -1.00000e+00  1.00000e+01     no limits
+  1275 norm174      1.74000e+02  1.00000e+01     no limits
+  1276 intens174    1.00000e+00  constant
+  1277 c175         0.00000e+00  1.00000e+00     no limits
+  1278 sigma175    -1.00000e+00  1.00000e+01     no limits
+  1279 norm175      1.75000e+02  1.00000e+01     no limits
+  1280 intens175    1.00000e+00  constant
+  1281 c176         0.00000e+00  1.00000e+00     no limits
+  1282 sigma176    -1.00000e+00  1.00000e+01     no limits
+  1283 norm176      1.76000e+02  1.00000e+01     no limits
+  1284 intens176    1.00000e+00  constant
+  1285 c177         0.00000e+00  1.00000e+00     no limits
+  1286 sigma177    -1.00000e+00  1.00000e+01     no limits
+  1287 norm177      1.77000e+02  1.00000e+01     no limits
+  1288 intens177    1.00000e+00  constant
+  1289 c178         0.00000e+00  1.00000e+00     no limits
+  1290 sigma178    -1.00000e+00  1.00000e+01     no limits
+  1291 norm178      1.78000e+02  1.00000e+01     no limits
+  1292 intens178    1.00000e+00  constant
+  1293 c179         0.00000e+00  1.00000e+00     no limits
+  1294 sigma179    -1.00000e+00  1.00000e+01     no limits
+  1295 norm179      1.79000e+02  1.00000e+01     no limits
+  1296 intens179    1.00000e+00  constant
+  1297 c180         0.00000e+00  1.00000e+00     no limits
+  1298 sigma180    -1.00000e+00  1.00000e+01     no limits
+  1299 norm180      1.80000e+02  1.00000e+01     no limits
+  1300 intens180    1.00000e+00  constant
+  1301 c181         0.00000e+00  1.00000e+00     no limits
+  1302 sigma181    -1.00000e+00  1.00000e+01     no limits
+  1303 norm181      1.81000e+02  1.00000e+01     no limits
+  1304 intens181    1.00000e+00  constant
+  1305 c182         0.00000e+00  1.00000e+00     no limits
+  1306 sigma182    -1.00000e+00  1.00000e+01     no limits
+  1307 norm182      1.82000e+02  1.00000e+01     no limits
+  1308 intens182    1.00000e+00  constant
+  1309 c183         0.00000e+00  1.00000e+00     no limits
+  1310 sigma183    -1.00000e+00  1.00000e+01     no limits
+  1311 norm183      1.83000e+02  1.00000e+01     no limits
+  1312 intens183    1.00000e+00  constant
+  1313 c184         0.00000e+00  1.00000e+00     no limits
+  1314 sigma184    -1.00000e+00  1.00000e+01     no limits
+  1315 norm184      1.84000e+02  1.00000e+01     no limits
+  1316 intens184    1.00000e+00  constant
+  1317 c185         0.00000e+00  1.00000e+00     no limits
+  1318 sigma185    -1.00000e+00  1.00000e+01     no limits
+  1319 norm185      1.85000e+02  1.00000e+01     no limits
+  1320 intens185    1.00000e+00  constant
+  1321 c186         0.00000e+00  1.00000e+00     no limits
+  1322 sigma186    -1.00000e+00  1.00000e+01     no limits
+  1323 norm186      1.86000e+02  1.00000e+01     no limits
+  1324 intens186    1.00000e+00  constant
+  1325 c187         0.00000e+00  1.00000e+00     no limits
+  1326 sigma187    -1.00000e+00  1.00000e+01     no limits
+  1327 norm187      1.87000e+02  1.00000e+01     no limits
+  1328 intens187    1.00000e+00  constant
+  1329 c188         0.00000e+00  1.00000e+00     no limits
+  1330 sigma188    -1.00000e+00  1.00000e+01     no limits
+  1331 norm188      1.88000e+02  1.00000e+01     no limits
+  1332 intens188    1.00000e+00  constant
+  1333 c189         0.00000e+00  1.00000e+00     no limits
+  1334 sigma189    -1.00000e+00  1.00000e+01     no limits
+  1335 norm189      1.89000e+02  1.00000e+01     no limits
+  1336 intens189    1.00000e+00  constant
+  1337 c190         0.00000e+00  1.00000e+00     no limits
+  1338 sigma190    -1.00000e+00  1.00000e+01     no limits
+  1339 norm190      1.90000e+02  1.00000e+01     no limits
+  1340 intens190    1.00000e+00  constant
+  1341 c191         0.00000e+00  1.00000e+00     no limits
+  1342 sigma191    -1.00000e+00  1.00000e+01     no limits
+  1343 norm191      1.91000e+02  1.00000e+01     no limits
+  1344 intens191    1.00000e+00  constant
+  1345 c192         0.00000e+00  1.00000e+00     no limits
+  1346 sigma192    -1.00000e+00  1.00000e+01     no limits
+  1347 norm192      1.92000e+02  1.00000e+01     no limits
+  1348 intens192    1.00000e+00  constant
+  1349 c193         0.00000e+00  1.00000e+00     no limits
+  1350 sigma193    -1.00000e+00  1.00000e+01     no limits
+  1351 norm193      1.93000e+02  1.00000e+01     no limits
+  1352 intens193    1.00000e+00  constant
+  1353 c194         0.00000e+00  1.00000e+00     no limits
+  1354 sigma194    -1.00000e+00  1.00000e+01     no limits
+  1355 norm194      1.94000e+02  1.00000e+01     no limits
+  1356 intens194    1.00000e+00  constant
+  1357 c195         0.00000e+00  1.00000e+00     no limits
+  1358 sigma195    -1.00000e+00  1.00000e+01     no limits
+  1359 norm195      1.95000e+02  1.00000e+01     no limits
+  1360 intens195    1.00000e+00  constant
+  1361 c196         0.00000e+00  1.00000e+00     no limits
+  1362 sigma196    -1.00000e+00  1.00000e+01     no limits
+  1363 norm196      1.96000e+02  1.00000e+01     no limits
+  1364 intens196    1.00000e+00  constant
+  1365 c197         0.00000e+00  1.00000e+00     no limits
+  1366 sigma197    -1.00000e+00  1.00000e+01     no limits
+  1367 norm197      1.97000e+02  1.00000e+01     no limits
+  1368 intens197    1.00000e+00  constant
+  1369 c198         0.00000e+00  1.00000e+00     no limits
+  1370 sigma198    -1.00000e+00  1.00000e+01     no limits
+  1371 norm198      1.98000e+02  1.00000e+01     no limits
+  1372 intens198    1.00000e+00  constant
+  1373 c199         0.00000e+00  1.00000e+00     no limits
+  1374 sigma199    -1.00000e+00  1.00000e+01     no limits
+  1375 norm199      1.99000e+02  1.00000e+01     no limits
+  1376 intens199    1.00000e+00  constant
+  1377 c200         0.00000e+00  1.00000e+00     no limits
+  1378 sigma200    -1.00000e+00  1.00000e+01     no limits
+  1379 norm200      2.00000e+02  1.00000e+01     no limits
+  1380 intens200    1.00000e+00  constant
+  1381 kev/chn      1.00000e+00  2.00000e-01     no limits
+  1382 chn_0        0.00000e+00  2.00000e-01     no limits
+  1383 quad_cal     0.00000e+00  2.00000e-01     no limits
+  1384 cube_cal     0.00000e+00  1.00000e-02     no limits
+  1385 sigrootE     1.00000e+00  1.00000e-03     no limits
+  1386 sigofst      0.00000e+00  2.00000e-01     no limits
+  1387 time         0.00000e+00  2.00000e-01     no limits
+Starting the XMGrace plotter.
+Attempting to open: :
+
+ Select generic fallback efficiency curve
+ Individual peak efficiencies will be overridden by effiencies.txt
+0: All non-tabulated peaks get 0 effiency but get parameterized by an independant background peak.
+1: Constant efficiency=1, fine for single gamma rate analysis only.
+2: 100% Ge 5 polynomial, Gowoon Jan 2015 (seems broken)
+3: 2: 100% Ge 5 polynomial, New Aluminum, CMD3.b 
+Add calibrations for your detector in eff.for

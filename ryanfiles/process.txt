@@ -1,0 +1,42 @@
+Step 1
+-> Fit the data with gdf files
+-.Chn data files
+-.gdf gdf files (in gdf dir)
+NOTE: also save the bgrates and rename after each run
+---------------------------------------------------
+Fitting Process
+---------------------------------------------------
+gdfit
+0
+file *.Chn
+recall *
+min
+bgsave (#save the bgrates in the form bgrates.dat)
+NOTE: Also rename bgrates.dat to the corresponding files
+---------------------------------------------------
+Result:
+right gdf files which gives most of the chi-square to ~1
+
+and convergence to 3
+WARNING: No convergance in case of Co-60
+---------------------------------------------------
+
+Step 2
+-> Need simulation files (in root files)
+-> Convert simulated root files into data file using energy calibration in the fitted data gdf file to convert
+the energy in the ROOT file back into the channels like the data gdfit fits.
+->plot.py takes the simulated root file, gdf file originally used to fit the data, and outputs the chn like 
+data (dat file) file which should be fitted in gdf file with new gdf files (simgdf file). 
+->import ROOT worked only when thisroot.sh was sourced. It didn't work when using the other path variables
+->The number of events for 0 data was just included to track how many energy are at 0. Need to set to 0 at later.
+-> For fitting with gdf files ryan sent use the following steps:
+=> tcsh
+=> gdfit
+=> 0
+=> file name.Chn
+=> recall name (name.gdf)
+=> min
+
+-> 
+
+

@@ -1,0 +1,1 @@
+This are the root files consisting of the data from the simulation carried out for the door position based on the mac files in the mac_files dir
