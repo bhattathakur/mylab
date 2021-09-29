@@ -27,6 +27,12 @@ Step 2
 the energy in the ROOT file back into the channels like the data gdfit fits.
 ->plot.py takes the simulated root file, gdf file originally used to fit the data, and outputs the chn like 
 data (dat file) file which should be fitted in gdf file with new gdf files (simgdf file). 
+-> run the bash file plot.sh
+..................................................................................
+IMPORTANT: change second value of the row to zero for in any of the first few columns
+..................................................................................
+
+
 ->import ROOT worked only when thisroot.sh was sourced. It didn't work when using the other path variables
 ->The number of events for 0 data was just included to track how many energy are at 0. Need to set to 0 at later.
 -> For fitting with gdf files ryan sent use the following steps:
