@@ -1,0 +1,3 @@
+num      energy        midtime       peakrate            +/-          I*eff          IsoBrconvergence    parent     activROI_Chisq/dofTot_Chisq/dof                                     filename
+5       26.3446              0       0.038398        1.00024              0              1    3     am241     am241  0.833868  0.810984                                             
+8       59.5409              0        6.49856              1              0              1    3     am241     am241  0.529878  0.810984                                             
