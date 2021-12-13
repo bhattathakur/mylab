@@ -2,6 +2,7 @@ Step 1
 -> Fit the data with gdf files
 -.Chn data files
 -.gdf gdf files (in gdf dir)
+-> save the gdf file whiich will be used to read the activity
 NOTE: also save the bgrates and rename after each run
 ---------------------------------------------------
 Fitting Process

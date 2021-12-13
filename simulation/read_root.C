@@ -19,23 +19,29 @@ h1->Draw();
 //  tT1->Draw("TrueEnergy");
   gPad->SetLogy();          //logy
 //creating the file to write the output
-ofstream myfile ("ba133simulation.dat");
+ofstream myfile ("ba133simulation.csv");
 
 //array of interested energy
-int energy [6]={53,80,276,302,356,383};
+//double energy [6]={53,80.9979,276.394,302.851,356.013,383.849};
+// Energy at 80 keV and 276 keV are ignored as there are other energy close to those peaks
+double energy []={53,302.851,356.013,383.849};
+
+cout<<"size of the energy array\t"<<sizeof(energy)/sizeof(energy[0])<<endl;
+int array_len=sizeof(energy)/sizeof(energy[0]);
+
 int n=15;
 cout<<right;
 cout<<setprecision(5);
 myfile<<right;
 myfile<<setprecision(5);
 
-myfile<<"Energy"<<setw(n-4)<<"n-1"<<setw(n)<<"n"<<setw(n)<<"n+1"<<setw(n)<<"background"<<setw(n)<<"signal"<<setw(n)<<"efficiency"<<endl;
+myfile<<"Energy,n-1,n,n+1,background,signal,efficiency"<<endl;
 cout<<"Energy"<<setw(n-4)<<"n-1"<<setw(n)<<"n"<<setw(n)<<"n+1"<<setw(n)<<"background"<<setw(n)<<"signal"<<setw(n)<<"efficiency"<<endl;
-for(int i=0;i<6;i++){
+for(int i=0;i<array_len;i++){
   //cout<<i<<setw(n)<<energy[i]<<endl;
   //cout<<h1->GetBinContent(energy[i]+1)<<endl;
   //get former and later bin content to for background
-  int e=energy[i];
+  double e=energy[i];
   //int bin0=h1->GetBinContent(energy[i]-1);
   int bin0=h1->GetBinContent(h1->FindBin(e-1));
   //int bin1=h1->GetBinContent(energy[i]);
@@ -50,7 +56,7 @@ for(int i=0;i<6;i++){
   //cout<<"energy:\t"<<e<<"\tbin0:\t"<<bin0<<"\tbin1:\t"<<bin1<<"\tbin2:"<<bin2<<endl;
   //myfile<<"former:\t"<<bin0<<"\tcurrent:\t"<<bin1<<"\tlater:\t"<<bin2<<endl;
 cout<<e<<setw(n)<<bin0<<setw(n)<<bin1<<setw(n)<<bin2<<setw(n)<<bkg<<setw(n)<<signal<<setw(n)<<eff<<endl;
-  myfile<<e<<setw(n)<<bin0<<setw(n)<<bin1<<setw(n)<<bin2<<setw(n)<<bkg<<setw(n)<<signal<<setw(n)<<eff<<endl;
+  myfile<<e<<","<<bin0<<","<<bin1<<","<<bin2<<","<<bkg<<","<<signal<<","<<eff<<endl;
 
 
 

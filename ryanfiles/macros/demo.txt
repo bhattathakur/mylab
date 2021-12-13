@@ -1,0 +1,88 @@
+
+    \begin{figure}[htb!])
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{dataeff/dataam241.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{simeff/am241_sim.pdf}
+    \end{subfigure}
+    \caption{na22}
+    \end{figure}
+    
+
+    \begin{figure}[htb!])
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{dataeff/databa133.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{simeff/ba133_sim.pdf}
+    \end{subfigure}
+    \caption{na22}
+    \end{figure}
+    
+
+    \begin{figure}[htb!])
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{dataeff/dataco60.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{simeff/co60_sim.pdf}
+    \end{subfigure}
+    \caption{na22}
+    \end{figure}
+    
+
+    \begin{figure}[htb!])
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{dataeff/datacs137.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{simeff/cs137_sim.pdf}
+    \end{subfigure}
+    \caption{na22}
+    \end{figure}
+    
+
+    \begin{figure}[htb!])
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{dataeff/dataeu152.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{simeff/eu152_sim.pdf}
+    \end{subfigure}
+    \caption{na22}
+    \end{figure}
+    
+
+    \begin{figure}[htb!])
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{dataeff/datana22.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{simeff/na22_sim.pdf}
+    \end{subfigure}
+    \caption{na22}
+    \end{figure}
+    
+
+    \begin{figure}[htb!])
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{dataeff/datapb210.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{simeff/pb210_sim.pdf}
+    \end{subfigure}
+    \caption{na22}
+    \end{figure}
+    
+
+    \begin{figure}[htb!])
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{dataeff/datara226.pdf}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\linewidth]{simeff/ra226_sim.pdf}
+    \end{subfigure}
+    \caption{na22}
+    \end{figure}
+    

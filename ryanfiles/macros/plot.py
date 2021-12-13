@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#This program converts the root file from the simulation into 2 column asci file. There might be unexpectedly bigger values in the second column for some first values which should be changed to 0
 
 from array import array
 from math  import *

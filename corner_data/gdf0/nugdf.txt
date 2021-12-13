@@ -1,0 +1,1 @@
+These are the file created with the help of nudat2 website should be used later instead of regualr gdf files

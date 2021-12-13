@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "./plotCorrection.py", line 47, in <module>
+    pyplot.errorbar(data[:,1], data[:,2], yerr=[data[:,5], data[:,6]], fmt='.' )
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed
+
+****************************************
+Minimizer is Minuit / MigradImproved
+Chi2                      =    0.0442481
+NDf                       =            1
+Edm                       =  1.20869e-27
+NCalls                    =           55
+p0                        =   0.00123091   +/-   6.41301e-06   -6.41918e-06 +6.40439e-06  (Minos) 
+
+****************************************
+Minimizer is Minuit / MigradImproved
+Chi2                      =      107.171
+NDf                       =            7
+Edm                       =  2.44703e-23
+NCalls                    =           53
+p0                        =    0.0334084   +/-   0.000128126   -0.000128127 +0.000128068  (Minos) 
+
+****************************************
+Minimizer is Minuit / MigradImproved
+Chi2                      =      48.1519
+NDf                       =           25
+Edm                       =  6.33331e-07
+NCalls                    =           36
+p0                        =     0.067157   +/-   0.0003023     -0.0003025   +0.0003021    (Minos) 
+
+****************************************
+Minimizer is Minuit / MigradImproved
+Chi2                      =      63.7343
+NDf                       =           25
+Edm                       =  1.87186e-07
+NCalls                    =           32
+p0                        =     0.865498   +/-   0.0038185     -0.00381967  +0.00381698   (Minos) 

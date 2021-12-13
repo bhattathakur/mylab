@@ -1,0 +1,12 @@
+co60   347.14
+co60   826.10
+co60  2158.57
+#ra226  580.140
+# Both of the following are several sigma low.
+ra226  785.96
+ra226  786.35
+ra226  806.180 # 5 sigma low
+ra226 2293.38  # 3 sigma low
+eu152  867.38  # line that has a funny shape for some reason
+ba133   79.6142
+ba133   80.9979

@@ -1,0 +1,2 @@
+This directory consists of the data files created from Chn files using /home/rma422/dev/chn2dat
+These files are used to find run times
