@@ -4,6 +4,7 @@ import array
 from   matplotlib import pyplot
 import numpy
 import sys
+import os
 
 import ROOT
 
@@ -16,9 +17,13 @@ if len(sys.argv) > 1:
 
 print("\nWorking for correction file of "+parent+" ...\n")
 #else plot them all
-
+#################################################
+fileloc="/home/thakur/mylab/ryanfiles/multisimulation/feb18/"
+f=fileloc+'correctionfeb18.dat'                                    
+print("correction data file:\t",f)
+#date="feb17"
 data = []
-file = open('correction.dat', 'r')
+file = open(f, 'r')
 for line in file:
     words = line.split()
     if len(sys.argv) > 1:
@@ -49,16 +54,30 @@ data = numpy.array(data)
 pyplot.errorbar(data[:,1], data[:,2], yerr=[data[:,5], data[:,6]], fmt='.' )
 pyplot.xlabel('Energy/keV')
 pyplot.ylabel('Data/simulation')
-pyplot.title(parent+"(correction)")
-pyplot.xlim(0, 2500)
-pyplot.ylim(0,    2)
+pyplot.title(parent+"(correction-feb18)")
+pyplot.autoscale(enable=True)
+#pyplot.xlim(0, 2500)
+#pyplot.ylim(0,    2)
 
 pol0  = ROOT.TF1('pol0','[0]',0,2500)
 pol0.SetParameter(0,1)
 pol1  = ROOT.TF1('pol1','[0]+[1]*x',0,2500)
 pol1.SetParameters(1,0)
 
-file = open('sourceCorrection.dat', 'a')
+#file to store the correction values
+#f=date+'sourceCorrection.dat'
+#if os.path.exists(f):
+#    print(f," exits!")
+#    os.remove(f)
+#    print(f," deleted!")
+#else:
+#    print(f," doesnot exit!")
+#    #os.remove(f)
+#    print(f," will be created!")
+#
+
+#mightneed to remove it if alreay presents
+file = open(fileloc+'sourceCorrectionfeb18.dat', 'a')
 if sum(ene > ethresh for ene in data[:,1]) > 1:
     # Fit and plot correction as a function of energy for all calibrations.
     graph = ROOT.TGraphAsymmErrors( len(data[:,1]),
@@ -92,4 +111,4 @@ else:
                                                           data[0][7], data[0][8] ))
 file.close()
 
-pyplot.savefig('correction'+parent+'.pdf', bbox_inches='tight')
+pyplot.savefig(fileloc+'correctionfeb18'+parent+'.pdf', bbox_inches='tight')

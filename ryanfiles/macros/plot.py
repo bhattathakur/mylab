@@ -11,6 +11,19 @@ binWidth = 1 # keV
 nchn = 16384
 
 def read( rootFile, gdfFile, datFile  ):
+    print("root file:\t",rootFile)
+    print("gdf file:\t",gdfFile)
+    print("data file:\t",datFile)
+    fileonly=rootFile[rootFile.rfind('/')+1:]
+    print("file:\t",fileonly)
+    iso=fileonly[:fileonly.find('.')]
+    print("isotope\t",iso)
+    sim_dir=datFile.split("/")[5]
+
+    #sim_dir=datFile[datFile.find('sim'):]
+    #sim_dir=sim_dir[:sim_dir.find('/')]
+    print("sim_dir\t",sim_dir)
+    print(80*'-')
     file = open( gdfFile, 'r' )
     lines = file.readlines()
     keV_chn = float( lines[-8].split()[1] )
@@ -37,7 +50,8 @@ def read( rootFile, gdfFile, datFile  ):
             e += pow(0.001*bin,3) * cube_cal 
             bins.append(e)
         #h1 = ROOT.TH1D("h1", os.getcwd(), nchn, chn_0, chn_0 + nchn*keV_chn)
-        h1 = ROOT.TH1D("h1", os.getcwd(), nchn, array('d',bins) )
+        #h1 = ROOT.TH1D("h1", os.getcwd()+"<-->"+fileonly, nchn, array('d',bins) )
+        h1 = ROOT.TH1D("h1", sim_dir+"("+fileonly+")", nchn, array('d',bins) )
         h1.SetName("h1")
         t = f.Get('tT1')
         #t.Draw("TrueEnergy*1000>>h1")
@@ -51,8 +65,9 @@ def read( rootFile, gdfFile, datFile  ):
     #h1.Scale(864000./ngen);# 10 Bq for 1 dz
     c1.SetLogy()
     c1.Update()
+    c1.SaveAs(iso+".pdf")
     print ( 'Number generated........:', ngen )
-    wait = input('Press any key to continue...')
+    #wait = input('Press any key to continue...')
 
 # main:
 print('Input ROOT file name, final (fit result) gdf file name, output dat file name')

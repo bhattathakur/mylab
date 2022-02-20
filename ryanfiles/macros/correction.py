@@ -10,7 +10,19 @@ from printVal      import printVal
 
 #remove correction.dat file if alreay exists
 #os.remove('correction.dat')
+
+###########################################3333
+fileloc="/home/thakur/mylab/ryanfiles/multisimulation/feb18/"
+f=fileloc+'simfeb18.dat'
+
+print("simulation data file:\t",f)
+
 parent = sys.argv[1]
+
+print(80*'-')
+print("ISOTOPE:\t",parent)
+print(80*'-')
+
 
 skips = []
 file = open('skip.dat', 'r')
@@ -22,8 +34,10 @@ for line in file:
 
 # Read all entries from data.dat,
 # then remove earlier superseeded entries.
+
 data = []
-file = open('data.dat', 'r')
+#################################################################
+file = open('data.dat', 'r')             #remember the data file
 for line in file:
     words = line.split()
     if words[0] != parent:
@@ -59,7 +73,9 @@ for entry in reversed(range(len(data))):
 # Read all entries from sim.dat,
 # then remove earlier superseeded entries.
 sim = []
-file = open('sim.dat', 'r')
+
+print("simulated file name:\t",f)
+file = open(f, 'r')
 for line in file:
     words = line.split()
     if words[0] != parent:
@@ -108,7 +124,7 @@ for d in range(len(data)):
         data.remove(data[d])
         exit(-1)
 
-file = open('correction.dat','a')
+file = open(fileloc+'correctionfeb18.dat','a')
 for d in data:
     # Get the error on the ratio by simulation.
     A        = d[2]

@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+'''
+This program produces the sim.dat file based on the mac file (used in simulation), gdf file (used to fit simulation data file) and original gdf file
+'''
 
 import math
 import re
@@ -15,6 +18,11 @@ parent   = sys.argv[1]
 macFile  = sys.argv[2]
 gdfFile  = sys.argv[3]
 gdfFile0 = sys.argv[4]
+
+print("parent:\t",parent)
+print("macFile:\t",macFile)
+print("gdfFile:\t",gdfFile)
+print("gdfFile0:\t",gdfFile0)
 
 # Get number of simulated events from Geant4 mac file.
 file = open(macFile, "r")

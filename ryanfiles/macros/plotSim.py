@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+'''
+This macro proces the plot for the simulated efficiences of different isotopes
+'''
+
 
 import array
 from   matplotlib import pyplot
@@ -10,12 +14,21 @@ import ROOT
 from   printVal   import printVal
 
 parent = sys.argv[1]
-print("working on simulation data for "+parent+" ...")
+print("\nworking on simulation data for "+parent+" ...")
 #./plotSim.py co60
 # Read all entries from data.dat,
 # then remove earlier superseeded entries.
+
 data = []
-file = open('sim.dat', 'r')
+#########################################################
+saveplot="/home/thakur/mylab/ryanfiles/multisimulation/feb18/" #root for the simulation data and plots
+dataroot='simfeb18'
+f=saveplot+dataroot+'.dat'
+
+print("Plot save location:\t",saveplot)
+print("Sim  data file:    \t",f)
+
+file = open(f, 'r')
 for line in file:
     words = line.split()
     if words[0] != parent:
@@ -61,8 +74,10 @@ for i in range(len(iso)):
 
 pyplot.xlabel('Energy/keV')
 pyplot.ylabel('Efficiency/%')
-pyplot.xlim(0, 2500)
-pyplot.ylim(0,    1)
-pyplot.title(parent+"(simulation)")
+pyplot.autoscale(enable=True)
+#pyplot.xlim(0, 2500)
+#pyplot.ylim(-2, 5)
+pyplot.title(dataroot+parent)
 
-pyplot.savefig(parent+'_sim.pdf', bbox_inches='tight')
+pyplot.savefig(saveplot+dataroot+parent+'.pdf', bbox_inches='tight')
+print("\nPlot saved: "+saveplot+dataroot+parent+'.pdf')

@@ -1,0 +1,148 @@
+/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0) tpbh222@login002~/gesim  
+[08:15 PM 894]$ rm CMakeCache.txt 
+rm: remove regular file ‘CMakeCache.txt’? y
+(/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0) tpbh222@login002~/gesim  
+[08:15 PM 894]$ rm -rf CMakeFiles
+(/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0) tpbh222@login002~/gesim  
+[08:15 PM 895]$ rm Makefile 
+rm: remove regular file ‘Makefile’? y
+(/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0) tpbh222@login002~/gesim  
+[08:15 PM 895]$ cmake .
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/bin/x86_64-conda-linux-gnu-cc
+-- Check for working C compiler: /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/bin/x86_64-conda-linux-gnu-cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/bin/x86_64-conda-linux-gnu-c++
+-- Check for working CXX compiler: /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/bin/x86_64-conda-linux-gnu-c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found EXPAT: /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/lib/libexpat.so (found suitable version "2.2.9", minimum required is "2.2.5") 
+-- Found ZLIB: /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/lib/libz.so (found suitable version "1.2.11", minimum required is "1.2.11") 
+-- Found XercesC: /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/lib/libxerces-c.so (found suitable version "3.2.2", minimum required is "3.2.2") 
+-- Found X11: /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include   
+-- Looking for XOpenDisplay in /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/lib/libX11.so;/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/lib/libXext.so
+-- Looking for XOpenDisplay in /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/lib/libX11.so;/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/lib/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found OpenGL: /usr/lib64/libOpenGL.so   
+-- Configuring done
+CMake Error in CMakeLists.txt:
+  Imported target "Geant4::G4OpenGL" includes non-existent path
+
+    "/home/conda/feedstock_root/build_artifacts/geant4_1576072588908/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include"
+
+  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+
+  * The path was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and references files it does not
+  provide.
+
+
+
+CMake Error in CMakeLists.txt:
+  Imported target "Geant4::G4OpenGL" includes non-existent path
+
+    "/home/conda/feedstock_root/build_artifacts/geant4_1576072588908/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include"
+
+  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+
+  * The path was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and references files it does not
+  provide.
+
+
+
+-- Generating done
+-- Build files have been written to: /home/tpbh222/gesim
+(/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0) tpbh222@login002~/gesim  
+[08:16 PM 895]$ make
+Scanning dependencies of target GeSim
+[  4%] Building CXX object CMakeFiles/GeSim.dir/GeSim.cc.o
+[  8%] Building CXX object CMakeFiles/GeSim.dir/src/ge4Geometry.cc.o
+[ 13%] Building CXX object CMakeFiles/GeSim.dir/src/ge4detectorConstruction.cc.o
+[ 17%] Building CXX object CMakeFiles/GeSim.dir/src/ge4geometry.cc.o
+[ 21%] Building CXX object CMakeFiles/GeSim.dir/src/gesimAnalysisManager.cc.o
+/home/tpbh222/gesim/src/gesimAnalysisManager.cc: In member function 'void gesimAnalysisManager::SelectDetector(G4String)':
+/home/tpbh222/gesim/src/gesimAnalysisManager.cc:237:53: warning: declaration of 's' shadows a global declaration [-Wshadow]
+ void gesimAnalysisManager::SelectDetector(G4String s){
+                                                     ^
+In file included from /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/CLHEP/Units/PhysicalConstants.h:41:0,
+                 from /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/G4ParticleDefinition.hh:58,
+                 from /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/G4ProcTblElement.hh:48,
+                 from /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/G4ProcessTable.hh:53,
+                 from /home/tpbh222/gesim/src/gesimAnalysisManager.cc:4:
+/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/CLHEP/Units/SystemOfUnits.h:148:28: note: shadowed declaration is here
+   static constexpr double  s = second;
+                            ^
+/home/tpbh222/gesim/src/gesimAnalysisManager.cc: In member function 'void gesimAnalysisManager::SaveGen(G4String)':
+/home/tpbh222/gesim/src/gesimAnalysisManager.cc:251:46: warning: declaration of 's' shadows a global declaration [-Wshadow]
+ void gesimAnalysisManager::SaveGen(G4String s){
+                                              ^
+In file included from /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/CLHEP/Units/PhysicalConstants.h:41:0,
+                 from /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/G4ParticleDefinition.hh:58,
+                 from /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/G4ProcTblElement.hh:48,
+                 from /opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/G4ProcessTable.hh:53,
+                 from /home/tpbh222/gesim/src/gesimAnalysisManager.cc:4:
+/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0/include/Geant4/CLHEP/Units/SystemOfUnits.h:148:28: note: shadowed declaration is here
+   static constexpr double  s = second;
+                            ^
+/home/tpbh222/gesim/src/gesimAnalysisManager.cc: In member function 'void gesimAnalysisManager::AddEnergy(G4double, G4double, G4double, G4int)':
+/home/tpbh222/gesim/src/gesimAnalysisManager.cc:290:12: warning: variable 'atomZ' set but not used [-Wunused-but-set-variable]
+   G4double atomZ = -1;
+            ^~~~~
+/home/tpbh222/gesim/src/gesimAnalysisManager.cc:291:12: warning: variable 'atomA' set but not used [-Wunused-but-set-variable]
+   G4double atomA = -1;
+            ^~~~~
+[ 26%] Building CXX object CMakeFiles/GeSim.dir/src/gesimAnalysisMessenger.cc.o
+[ 30%] Building CXX object CMakeFiles/GeSim.dir/src/gesimDetectorConstruction.cc.o
+[ 34%] Building CXX object CMakeFiles/GeSim.dir/src/gesimDetectorMessenger.cc.o
+[ 39%] Building CXX object CMakeFiles/GeSim.dir/src/gesimEnergyDeposition.cc.o
+[ 43%] Building CXX object CMakeFiles/GeSim.dir/src/gesimEventAction.cc.o
+[ 47%] Building CXX object CMakeFiles/GeSim.dir/src/gesimEventActionMessenger.cc.o
+[ 52%] Building CXX object CMakeFiles/GeSim.dir/src/gesimHisto.cc.o
+[ 56%] Building CXX object CMakeFiles/GeSim.dir/src/gesimHistoMessenger.cc.o
+[ 60%] Building CXX object CMakeFiles/GeSim.dir/src/gesimMaterial.cc.o
+[ 65%] Building CXX object CMakeFiles/GeSim.dir/src/gesimMaterialMessenger.cc.o
+[ 69%] Building CXX object CMakeFiles/GeSim.dir/src/gesimPhysListEmLowEnergy.cc.o
+[ 73%] Building CXX object CMakeFiles/GeSim.dir/src/gesimPhysListParticles.cc.o
+[ 78%] Building CXX object CMakeFiles/GeSim.dir/src/gesimPhysicsList.cc.o
+/home/tpbh222/gesim/src/gesimPhysicsList.cc: In member function 'void gesimPhysicsList::AddExtraBuilders(G4bool)':
+/home/tpbh222/gesim/src/gesimPhysicsList.cc:144:48: warning: unused parameter 'flagHP' [-Wunused-parameter]
+ void gesimPhysicsList::AddExtraBuilders(G4bool flagHP)
+                                                ^~~~~~
+[ 82%] Building CXX object CMakeFiles/GeSim.dir/src/gesimPhysicsListMessenger.cc.o
+[ 86%] Building CXX object CMakeFiles/GeSim.dir/src/gesimPrimaryGeneratorAction.cc.o
+[ 91%] Building CXX object CMakeFiles/GeSim.dir/src/gesimRunAction.cc.o
+[ 95%] Building CXX object CMakeFiles/GeSim.dir/src/gesimSteppingAction.cc.o
+/home/tpbh222/gesim/src/gesimSteppingAction.cc: In member function 'virtual void gesimSteppingAction::UserSteppingAction(const G4Step*)':
+/home/tpbh222/gesim/src/gesimSteppingAction.cc:98:14: warning: declaration of 'pid' shadows a previous local [-Wshadow]
+     G4double pid=G4double(fTrack->GetDefinition()->GetPDGEncoding());
+              ^~~
+/home/tpbh222/gesim/src/gesimSteppingAction.cc:46:9: note: shadowed declaration is here
+   G4int pid = fTrack->GetDefinition()->GetPDGEncoding();
+         ^~~
+/home/tpbh222/gesim/src/gesimSteppingAction.cc:46:9: warning: unused variable 'pid' [-Wunused-variable]
+make[2]: *** No rule to make target `/home/conda/feedstock_root/build_artifacts/geant4_1576072588908/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib64/libGL.so', needed by `GeSim'.  Stop.
+make[1]: *** [CMakeFiles/GeSim.dir/all] Error 2
+make: *** [all] Error 2
+(/opt/ohpc/pub/libs/conda/env/root-6.22.0+geant4-10.6.0) tpbh222@login002~/gesim  

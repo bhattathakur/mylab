@@ -1,19 +1,38 @@
-rm -f sim.dat
-add="/home/thakur/mylab/ryanfiles/"
-./sim.py na22  $add/mac_files/na22.mac  $add/simgdf/na22sim.gdf $add/nugdf/na22.gdf
-./sim.py co60  $add/mac_files/co60.mac  $add/simgdf/co60sim.gdf $add/nugdf/co60.gdf
-./sim.py ba133 $add/mac_files/ba133.mac $add/simgdf/ba133sim.gdf $add/nugdf/ba133.gdf
-./sim.py cs137 $add/mac_files/cs137.mac $add/simgdf/cs137sim.gdf $add/nugdf/cs137.gdf
-./sim.py eu152 $add/mac_files/eu152.mac $add/simgdf/eu152sim.gdf $add/nugdf/eu152.gdf
-./sim.py pb210 $add/mac_files/pb210.mac $add/simgdf/pb210sim.gdf $add/nugdf/pb210.gdf
-./sim.py ra226 $add/mac_files/ra226.mac $add/simgdf/ra226sim.gdf $add/nugdf/ra226.gdf
-./sim.py am241 $add/mac_files/am241.mac $add/simgdf/am241sim.gdf $add/nugdf/am241.gdf
+rm -vf sim.dat
 
-#./sim.py na22  $add/mac_files/na22.mac  $add/simgdf/na22sim.gdf /home/thakur/mylab/ryanfiles/nugdf/na22.gdf
-#./sim.py co60  $add/mac_files/co60.mac  $add/simgdf/co60sim.gdf /home/thakur/mylab/ryanfiles/nugdf/co60.gdf
-#./sim.py ba133 /home/thakur/mylab/ryanfiles/mac_files/ba133.mac /home/thakur/mylab/ryanfiles/simgdf/ba133sim.gdf /home/thakur/mylab/ryanfiles/nugdf/ba133.gdf
-#./sim.py cs137 /home/thakur/mylab/ryanfiles/mac_files/cs137.mac /home/thakur/mylab/ryanfiles/simgdf/cs137sim.gdf /home/thakur/mylab/ryanfiles/nugdf/cs137.gdf
-#./sim.py eu152 /home/thakur/mylab/ryanfiles/mac_files/eu152.mac /home/thakur/mylab/ryanfiles/simgdf/eu152sim.gdf /home/thakur/mylab/ryanfiles/nugdf/eu152.gdf
-#./sim.py pb210 /home/thakur/mylab/ryanfiles/mac_files/pb210.mac /home/thakur/mylab/ryanfiles/simgdf/pb210sim.gdf /home/thakur/mylab/ryanfiles/nugdf/pb210.gdf
-#./sim.py ra226 /home/thakur/mylab/ryanfiles/mac_files/ra226.mac /home/thakur/mylab/ryanfiles/simgdf/ra226sim.gdf /home/thakur/mylab/ryanfiles/nugdf/ra226.gdf
-#./sim.py am241 /home/thakur/mylab/ryanfiles/mac_files/am241.mac /home/thakur/mylab/ryanfiles/simgdf/am241sim.gdf /home/thakur/mylab/ryanfiles/nugdf/am241.gdf
+add1="/home/thakur/mylab/ryanfiles/multisimulation/feb18" #sim.dat and sim.gdf
+
+add="/home/thakur/mylab/ryanfiles"                        #org gdf
+
+echo "gdf file dir: ${add}"
+echo "sim file dir: ${add1}"
+
+sleep 3
+
+#exit 0
+
+echo "--------------------------------------------------------------------------------- "
+./sim.py na22  $add1/na22.mac  $add1/na22sim.gdf $add/nugdf/na22.gdf
+echo "------------------------------------------------------------------ "
+./sim.py co60  $add1/co60.mac  $add1/co60sim.gdf $add/nugdf/co60.gdf
+echo "------------------------------------------------------------------ "
+./sim.py ba133 $add1/ba133.mac $add1/ba133sim.gdf $add/nugdf/ba133.gdf
+echo "------------------------------------------------------------------ "
+./sim.py cs137 $add1/cs137.mac $add1/cs137sim.gdf $add/nugdf/cs137.gdf
+echo "------------------------------------------------------------------ "
+./sim.py eu152 $add1/eu152.mac $add1/eu152sim.gdf $add/nugdf/eu152.gdf
+echo "------------------------------------------------------------------ "
+./sim.py pb210 $add1/pb210.mac $add1/pb210sim.gdf $add/nugdf/pb210.gdf
+echo "------------------------------------------------------------------ "
+./sim.py ra226 $add1/ra226.mac $add1/ra226sim.gdf $add/nugdf/ra226.gdf
+echo "------------------------------------------------------------------ "
+./sim.py am241 $add1/am241.mac $add1/am241sim.gdf $add/nugdf/am241.gdf
+echo "--------------------------------------------------------------------------------- "
+
+#copy sim.dat to add1
+sleep 3
+echo "copy sim.dat to: ${add1}"
+
+sleep 3
+cp sim.dat ${add1}/simfeb18.dat
+echo "file created: ${add1}/simfeb18.dat"

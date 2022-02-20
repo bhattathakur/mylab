@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+'''
+This macro produces the plot for the data efficiencies of different isotopes from GeIV
+'''
 import array
 from   matplotlib import pyplot
 import numpy
