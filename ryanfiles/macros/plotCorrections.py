@@ -10,8 +10,8 @@ import ROOT
 
 ethresh = 60 # keV
 ###############################################33
-fileloc="/home/thakur/mylab/ryanfiles/multisimulation/feb18/"
-f=fileloc+'sourceCorrectionfeb18.dat'
+fileloc="/home/thakur/mylab/ryanfiles/multisimulation/0.7-40.2-ra/"
+f=fileloc+'sourceCorrection0.7-40.2-ra.dat'
 print("Source correction data file:\t",f)
 
 #check if file exists
@@ -92,7 +92,7 @@ pyplot.xlim(xs[0]-0.5, xs[-1]+0.5)
 pyplot.xticks(xs, parents)
 #pyplot.ylim(0.0, 1.2)
 pyplot.autoscale(enable=True,axis='y')
-pyplot.title("correction-feb18")
+pyplot.title("correction-0.7-40.2-ra")
 
 pol0  = ROOT.TF1('pol0','[0]',      xs[0]-0.5, xs[-1]+0.5)
 pol0.SetParameter(0,1)
@@ -108,6 +108,7 @@ graph = ROOT.TGraphAsymmErrors( len(x),
                                 array.array('d', hi) )
 pol0.SetParameter(0,0.9)
 result = graph.Fit('pol0', 'remqs', '', xs[0]-1, xs[-1]+1)
+ROOT.gStyle.SetOptFit(1011)
 result.Print()
 xs = numpy.linspace(xs[0]-1, xs[-1]+1, num=99)
 ys = []
@@ -115,8 +116,8 @@ for x in xs:
     ys.append( pol0.Eval(x) )
 pyplot.plot(xs, ys)
 
-pyplot.savefig(fileloc+'correction-feb18.pdf', bbox_inches='tight')
-print("\n"+fileloc+'correction-feb18.pdf created')
+pyplot.savefig(fileloc+'correction-0.7-40.2-ra.pdf', bbox_inches='tight')
+print("\n"+fileloc+'correction-0.7-40.2-ra.pdf created')
 pyplot.clf()
 
 xs = numpy.arange(0, len(parents))
@@ -127,7 +128,7 @@ pyplot.xlim(xs[0]-0.5, xs[-1]+0.5)
 pyplot.xticks(xs, parents)
 #pyplot.ylim(0.0, 1.2) #ylim(bottom,top)
 pyplot.autoscale(enable=True,axis='y')
-pyplot.title("correction-correlated-feb18")
+pyplot.title("correction-correlated-0.7-40.2-ra")
 
 graph = ROOT.TGraphAsymmErrors( len(x),
                                 array.array('d',x),
@@ -135,12 +136,14 @@ graph = ROOT.TGraphAsymmErrors( len(x),
 pol0.SetParameter(0,0.9)
 result = graph.Fit('pol0', 'remqs', '', xs[0]-1, xs[-1]+1)
 result.Print()
+#show the parameters in the graph
+ROOT.gStyle.SetOptFit(1011)
 xs = numpy.linspace(xs[0]-1, xs[-1]+1, num=99)
 ys = []
 for x in xs:
     ys.append( pol0.Eval(x) )
 pyplot.plot(xs, ys)
 
-pyplot.savefig(fileloc+'correctioncorrelated-feb18.pdf', bbox_inches='tight')
-print("\n"+fileloc+'correctioncorrelated-feb18.pdf created')
+pyplot.savefig(fileloc+'correctioncorrelated-0.7-40.2-ra.pdf', bbox_inches='tight')
+print("\n"+fileloc+'correctioncorrelated-0.7-40.2-ra.pdf created')
 

@@ -11,6 +11,7 @@ def readGDF( gdfFile, isotopes ):
     #  5: immediate parent isotope name
     gammas = []
     found  = False
+    print(f"Reading the gef file: {gdfFile} to read the data!!!\n")
     file   = open(gdfFile, 'r')
 
     # First find gammas associated with isotope and peak number (c#)
@@ -23,11 +24,15 @@ def readGDF( gdfFile, isotopes ):
         for line in file:
             #print(line)
             data = line.split()
+            #print("data:\n",data)
+
             if     data[0][0:7] == 'actname':
                 if data[1]      == iso[0]:
                     norm = int(data[0][7:])
+                    print(f"norm: {norm}")
             elif   data[0][0:6] == 'parent' and int(data[0][6:]) == norm:
                 parent = float(data[2])
+                print(f"parent: {parent}")
                 if parent != iso[1]:
                     print( 'GDFit did not use correct chain intensity' )
                     print( 'You must reconcile GDfit...:', parent )
@@ -45,6 +50,8 @@ def readGDF( gdfFile, isotopes ):
                 # This correction is done for Eu-152 decays in NuDat2
             elif ( data[0][0:4] == 'time' ):
                 lt  = float(   data[1])
+                print(f"lt: {lt}")
+
             if found:
                 gammas.append( [e, br, ebr, c] ) # c to find rate below
                 found = False

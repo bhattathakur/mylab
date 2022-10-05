@@ -16,8 +16,12 @@ print("working for data for "+parent+" ...")
 #./plotData.py co60
 # Read all entries from data.dat,
 # then remove earlier superseeded entries.
+position='door'
+pdf_save='/home/thakur/mylab/ryanfiles/geiv_'+position+'_data/'
+data_file="final_"+position+"_data.dat"
+print("data file ",data_file)
 data = []
-file = open('data.dat', 'r')
+file = open(data_file, 'r')
 for line in file:
     words = line.split()
     if words[0] != parent:
@@ -66,7 +70,9 @@ for i in range(len(iso)):
 pyplot.xlabel('Energy/keV')
 pyplot.ylabel('Efficiency/%')
 pyplot.xlim(0, 2500)
-pyplot.ylim(0,    1)
-pyplot.title(parent+"(data)")
+#pyplot.ylim(0,    1)
+pyplot.autoscale(axis='y')
+pyplot.title(parent+"("+position+" data)")
 
-pyplot.savefig('data'+parent+'.pdf', bbox_inches='tight')
+pyplot.savefig(pdf_save+'('+position+')-data'+parent+'.pdf', bbox_inches='tight')
+print("Final data efficiency plots saved at: {}".format(pdf_save))

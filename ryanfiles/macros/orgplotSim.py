@@ -14,7 +14,7 @@ import ROOT
 from   printVal   import printVal
 
 parent = sys.argv[1]
-print("\nworking on simulation data for "+parent+" ...")
+print("\nWorking on simulation data for "+parent+" ...")
 #./plotSim.py co60
 # Read all entries from data.dat,
 # then remove earlier superseeded entries.

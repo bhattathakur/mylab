@@ -18,7 +18,7 @@ parent   = sys.argv[1]
 macFile  = sys.argv[2]
 gdfFile  = sys.argv[3] #gdf file for fitting the simulated data
 gdfFile0 = sys.argv[4] #original gdf file
-no_of_files=20
+no_of_files=N_files
 
 print("parent:\t",parent)
 print("macFile:\t",macFile)

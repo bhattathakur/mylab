@@ -11,7 +11,7 @@ from getRatioError import getRatioError
 from ra226BR       import *
 
 fmt="{}\t\t{}"
-geiv_data_file="data.dat" #final combined data is saved in this file
+geiv_data_file="final_door_data.dat" #final combined data is saved in this file
 
 def getRunTimes(datFile):
     """
@@ -23,8 +23,6 @@ def getRunTimes(datFile):
     #readline reads a whole file in a go and store in the form of list of strings.
     start =           int(lines[2].split()[-2])
     end   = start + float(lines[3].split()[-2])
-    print(f"start time: {start}\n")
-    print(f"end time  : {end}\n")
     return [start, end]
 
 """
@@ -82,7 +80,6 @@ for d in data:
     if d[2] == 0:
         print( 'Warning:',d[0],'keV branching ratio has no error.' )
 
-print(f"\nOpening and reading the file: {geiv_data_file}\n")
 file = open(geiv_data_file,'a')
 for d in data:
     if d[4] > 0: # gamma line was fit
@@ -109,7 +106,7 @@ for d in data:
                                                                                                              A, dA, minus, plus,
                                                                                                              d[1], d[2], d[3], d[4]) )
             #print("parent\t d[-1]d[0]\teff\tlo\thi\tA\tdA\tminus\tplus\n")
-            print("DATA FILE INFORMATION:\n")
+            print("DATA\n")
             print( 'parent->{:6s}\td[-1]-> {:6s}\td[0]-> {:.4f}\teff-> {:e}\tlo-> {:e}\thi-> {:e}\tA-> {:e}\tdA-> {:e}\tminus-> {:e}\tplus-> {:e}\t d[1]->{:e}\td[2]-> {:e}\td[3]-> {:e}\td[4]-> {:e}\n'.format(parent,
                                                                                                              d[-1], d[0],
                                                                                                              eff, lo, hi,

@@ -14,15 +14,15 @@ import ROOT
 from   printVal   import printVal
 
 parent = sys.argv[1]
-print("\nworking on simulation data for "+parent+" ...")
+print("\nWorking on simulation data for "+parent+" ...")
 #./plotSim.py co60
 # Read all entries from data.dat,
 # then remove earlier superseeded entries.
 
 data = []
 #########################################################
-saveplot="/home/thakur/mylab/ryanfiles/multisimulation/feb18/" #root for the simulation data and plots
-dataroot='simfeb18'
+saveplot="/home/thakur/mylab/ryanfiles/multisimulation/sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3/" #root for the simulation data and plots
+dataroot='simsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3'
 f=saveplot+dataroot+'.dat'
 
 print("Plot save location:\t",saveplot)

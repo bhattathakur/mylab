@@ -108,6 +108,7 @@ graph = ROOT.TGraphAsymmErrors( len(x),
                                 array.array('d', hi) )
 pol0.SetParameter(0,0.9)
 result = graph.Fit('pol0', 'remqs', '', xs[0]-1, xs[-1]+1)
+ROOT.gStyle.SetOptFit(1011)
 result.Print()
 xs = numpy.linspace(xs[0]-1, xs[-1]+1, num=99)
 ys = []
@@ -135,6 +136,8 @@ graph = ROOT.TGraphAsymmErrors( len(x),
 pol0.SetParameter(0,0.9)
 result = graph.Fit('pol0', 'remqs', '', xs[0]-1, xs[-1]+1)
 result.Print()
+#show the parameters in the graph
+ROOT.gStyle.SetOptFit(1011)
 xs = numpy.linspace(xs[0]-1, xs[-1]+1, num=99)
 ys = []
 for x in xs:

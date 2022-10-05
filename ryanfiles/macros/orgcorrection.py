@@ -13,9 +13,26 @@ from printVal      import printVal
 
 ###########################################3333
 fileloc="/home/thakur/mylab/ryanfiles/multisimulation/simdir/"
-f=fileloc+'simsimdir.dat'
+f=fileloc+'simsimdir.dat'         #sim
+geiv_data=fileloc+'datasimdir.dat' #data
 
-print("simulation data file:\t",f)
+#geiv_data="/home/thakur/mylab/ryanfiles/geiv_door_data/final_door_data.dat" #door data
+#geiv_data="/home/thakur/mylab/ryanfiles/geiv_corner_data/final_corner_data.dat" #corner data
+
+#geiv_data="/home/thakur/mylab/ryanfiles/geiv_outer-corner_data/pb210-outter-corner.dat" #outer-corner
+#geiv_data=fd
+##if('corner'=='SOURCE'):
+#    geiv_data="/home/thakur/mylab/ryanfiles/geiv_door_data/final_door_data.dat"            #door data
+#elif('door'=='SOURCE'):
+#    geiv_data="/home/thakur/mylab/ryanfiles/geiv_outer-corner_data/pb210-outter-corner.dat" #outer-corner
+#elif('outer-corner'=='SOURCE'):
+#    geiv_data="/home/thakur/mylab/ryanfiles/geiv_corner_data/final_corner_data.dat" #corner data
+
+#geiv_data="/home/thakur/mylab/ryanfiles/geiv_corner_data/final_corner_data.dat" #corner data
+print("IMPORTANT..!!!\n")
+print(f"GEIV EXP DATA FILE      :{geiv_data}")
+print(f"SIMULATION DATA FILE    :{f}\n")
+
 
 parent = sys.argv[1]
 
@@ -37,7 +54,7 @@ for line in file:
 
 data = []
 #################################################################
-file = open('data.dat', 'r')             #remember the data file
+file = open(geiv_data, 'r')             #remember the data file
 for line in file:
     words = line.split()
     if words[0] != parent:
@@ -124,7 +141,10 @@ for d in range(len(data)):
         data.remove(data[d])
         exit(-1)
 
-file = open(fileloc+'correctionsimdir.dat','a')
+corr_file=fileloc+'correctionsimdir.dat'
+print(20*"==")
+print(f"Correction File: {corr_file}\n")
+file = open(corr_file,'a')
 for d in data:
     # Get the error on the ratio by simulation.
     A        = d[2]

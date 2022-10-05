@@ -29,7 +29,7 @@ def getdA(A, dA, hl, dhl, dhlp, start, end):
     min =  inf
     max = -inf
     while len(dist) < throws:
-        da  = random.gauss(A, dA)
+        da  = random.gauss(A, dA) #(mu,sigma)
         dt  = random.gauss(hl, dhl)
         dt += dhlp*(random.random() < 0.5)
         da *= dt/log(2) * ( exp(-start*log(2)/dt) -  exp(-end*log(2)/dt) ) / (end - start)
