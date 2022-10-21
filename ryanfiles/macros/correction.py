@@ -12,9 +12,9 @@ from printVal      import printVal
 #os.remove('correction.dat')
 
 ###########################################3333
-fileloc="/home/thakur/mylab/ryanfiles/multisimulation/sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3/"
-f=fileloc+'simsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3.dat'         #sim
-geiv_data=fileloc+'datasep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3.dat' #data
+fileloc="/home/thakur/mylab/ryanfiles/multisimulation/oct18-frontleftcorner-topdead0.0004-ceramic-den1.22/"
+f=fileloc+'simoct18-frontleftcorner-topdead0.0004-ceramic-den1.22.dat'         #sim
+geiv_data=fileloc+'dataoct18-frontleftcorner-topdead0.0004-ceramic-den1.22.dat' #data
 
 #geiv_data="/home/thakur/mylab/ryanfiles/geiv_door_data/final_door_data.dat" #door data
 #geiv_data="/home/thakur/mylab/ryanfiles/geiv_corner_data/final_corner_data.dat" #corner data
@@ -141,7 +141,7 @@ for d in range(len(data)):
         data.remove(data[d])
         exit(-1)
 
-corr_file=fileloc+'correctionsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3.dat'
+corr_file=fileloc+'correctionoct18-frontleftcorner-topdead0.0004-ceramic-den1.22.dat'
 print(20*"==")
 print(f"Correction File: {corr_file}\n")
 file = open(corr_file,'a')

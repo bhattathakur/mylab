@@ -21,8 +21,8 @@ print("\nWorking on simulation data for "+parent+" ...")
 
 data = []
 #########################################################
-saveplot="/home/thakur/mylab/ryanfiles/multisimulation/sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3/" #root for the simulation data and plots
-dataroot='simsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3'
+saveplot="/home/thakur/mylab/ryanfiles/multisimulation/oct18-frontleftcorner-topdead0.0004-ceramic-den1.22/" #root for the simulation data and plots
+dataroot='simoct18-frontleftcorner-topdead0.0004-ceramic-den1.22'
 f=saveplot+dataroot+'.dat'
 
 print("Plot save location:\t",saveplot)

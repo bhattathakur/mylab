@@ -23,8 +23,8 @@ if len(sys.argv) > 1:
 print("\nWorking for correction file of "+parent+" ...\n")
 #else plot them all
 #################################################
-fileloc="/home/thakur/mylab/ryanfiles/multisimulation/sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3/"
-f=fileloc+'correctionsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3.dat'                                    
+fileloc="/home/thakur/mylab/ryanfiles/multisimulation/oct18-frontleftcorner-topdead0.0004-ceramic-den1.22/"
+f=fileloc+'correctionoct18-frontleftcorner-topdead0.0004-ceramic-den1.22.dat'                                    
 print("correction data file:\t",f)
 #date="feb17"
 data = []
@@ -59,7 +59,7 @@ data = numpy.array(data)
 pyplot.errorbar(data[:,1], data[:,2], yerr=[data[:,5], data[:,6]], fmt='.' )
 pyplot.xlabel('Energy/keV')
 pyplot.ylabel('Data/simulation')
-pyplot.title(parent+"(correction-sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3)")
+pyplot.title(parent+"(correction-oct18-frontleftcorner-topdead0.0004-ceramic-den1.22)")
 pyplot.autoscale(enable=True,axis='y')
 #pyplot.xlim(0, 2500)
 #pyplot.ylim(0.00,2.00)
@@ -82,7 +82,7 @@ pol1.SetParameters(1,0)
 #
 
 #mightneed to remove it if alreay presents
-file = open(fileloc+'sourceCorrectionsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3.dat', 'a')
+file = open(fileloc+'sourceCorrectionoct18-frontleftcorner-topdead0.0004-ceramic-den1.22.dat', 'a')
 if sum(ene > ethresh for ene in data[:,1]) > 1:
     # Fit and plot correction as a function of energy for all calibrations.
     print("Fit data for :"+parent)
@@ -167,9 +167,9 @@ for i,txt in enumerate(xdata):
   pyplot.annotate(str(txt),(xdata[i],ydata[i]),fontsize=5)
 
 #pyplot.figure(figsize=(12,8))
-pyplot.savefig(fileloc+'correctionsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3'+parent+'.pdf', bbox_inches='tight')
+pyplot.savefig(fileloc+'correctionoct18-frontleftcorner-topdead0.0004-ceramic-den1.22'+parent+'.pdf', bbox_inches='tight')
 
-print("Plot are at "+fileloc+'correctionsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3'+parent+'.pdf')
+print("Plot are at "+fileloc+'correctionoct18-frontleftcorner-topdead0.0004-ceramic-den1.22'+parent+'.pdf')
 
 #pyplot.show()
 

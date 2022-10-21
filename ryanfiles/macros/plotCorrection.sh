@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -vrf /home/thakur/mylab/ryanfiles/multisimulation/sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3/sourceCorrectionsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3.dat
+rm -vrf /home/thakur/mylab/ryanfiles/multisimulation/oct18-frontleftcorner-topdead0.0004-ceramic-den1.22/sourceCorrectionoct18-frontleftcorner-topdead0.0004-ceramic-den1.22.dat
 
 #python3 plotCorrection.py am241
 #python3 plotCorrection.py ba133

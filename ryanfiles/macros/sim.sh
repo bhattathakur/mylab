@@ -1,6 +1,6 @@
 rm -rf sim.dat
 
-add1="/home/thakur/mylab/ryanfiles/multisimulation/sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3" #sim.dat and sim.gdf
+add1="/home/thakur/mylab/ryanfiles/multisimulation/oct18-frontleftcorner-topdead0.0004-ceramic-den1.22" #sim.dat and sim.gdf
 
 add="/home/thakur/mylab/ryanfiles"                        #org gdf
 
@@ -35,5 +35,5 @@ sleep 3
 echo "copy sim.dat to: ${add1}"
 
 sleep 3
-cp sim.dat ${add1}/simsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3.dat
-echo "file created: ${add1}/simsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3.dat"
+cp sim.dat ${add1}/simoct18-frontleftcorner-topdead0.0004-ceramic-den1.22.dat
+echo "file created: ${add1}/simoct18-frontleftcorner-topdead0.0004-ceramic-den1.22.dat"

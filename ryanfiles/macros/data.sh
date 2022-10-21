@@ -1,6 +1,6 @@
 rm -f data.dat
 data_dir=geiv_frontleftcorner_data
-dest_folder=sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3
+dest_folder=oct18-frontleftcorner-topdead0.0004-ceramic-den1.22
 add="/home/thakur/mylab/ryanfiles/"
 add1="/home/thakur/mylab/ryanfiles/$data_dir" #data obtained from .Chn
 file_dir=/home/thakur/mylab/ryanfiles/multisimulation/

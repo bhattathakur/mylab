@@ -3,7 +3,8 @@
 #make changes in the files
 #change in the file sim.sh
 
-folder=sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3
+#folder=sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3
+folder=oct18-frontleftcorner-topdead0.0004-ceramic-den1.22
 
 
 data_dir=geiv_frontleftcorner_data    #front left corner data

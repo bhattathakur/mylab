@@ -1,5 +1,5 @@
 echo "Inside orgcorrection.sh"
-rm -rf /home/thakur/mylab/ryanfiles/multisimulation/sep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3/correctionsep30-frontleftcorner-confine-defaultdeadlayer-ceramic-den3.dat
+rm -rf /home/thakur/mylab/ryanfiles/multisimulation/oct18-frontleftcorner-topdead0.0004-ceramic-den1.22/correctionoct18-frontleftcorner-topdead0.0004-ceramic-den1.22.dat
 #echo "cor_file: $cor_file"
 #if [ -f "$cor_file" ];then
 #  echo "$cor_file exists and removing!"
